@@ -1,11 +1,5 @@
 ---
-title: "javirudolph.github.io"
+title: "javirudolph"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Welcome to my 'work in progress' website
