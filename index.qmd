@@ -1,5 +1,15 @@
----
-title: "javirudolph"
----
-
-Welcome to my 'work in progress' website
+title: "F. Javiera Rudolph"
+image: headshot.jpg
+about: 
+  template: solana
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/javirudolph/
+    - text: Twitter
+      href: https://twitter.com/javirudolph
+    - text: GitHub
+      href: https://github.com/javirudolph
+    - text: Email
+      href: mailto:f.javierarudolph@gmail.com
