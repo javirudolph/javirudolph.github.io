@@ -1,31 +1,16 @@
 ---
-title: "F. Javiera Rudolph"
-image: headshot.jpg
+image: images/javi_picture.jpg
+toc: false
 about: 
-  template: solana
-  image-shape: rounded
+  template: jolla
+  image-shape: round
   image-width: 15em
-  links:
-    - text: LinkedIn
-      href: https://www.linkedin.com/in/javirudolph/
-    - text: GitHub
-      href: https://github.com/javirudolph
 ---
 
-:::{#hero-heading}
+::: {#bio}
+Hi!
 
-Javi is working on this site.
-
-## Education
-
-University of Florida | Gainesville, FL  
-PhD in Zoology | August 2015 - April 2021
-
-Universidad San Francisco de Quito | Quito, Ecuador  
-BSc. Biology, Minor. Microbiolgy | Aug 2009 - June 2015
-
-## Experience
-
-Working on this
-
+::: {#landing-icons}
+[{{< fa brands linkedin title="linkedin" >}}](https://www.linkedin.com/in/javirudolph/){target="_blank"} &nbsp; [{{< fa brands github title="github" >}}](https://github.com/javirudolph){target="_blank"} &nbsp; [{{< fa brands bluesky title="bluesky" >}}](https://bsky.app/profile/samcsik.bsky.social){target="_blank"} &nbsp; [{{< fa envelope title="envelope" >}}](mailto:scsik@ucsb.edu)
+:::
 :::
