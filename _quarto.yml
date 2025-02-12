@@ -4,17 +4,48 @@ project:
 
 website:
   title: "javirudolph"
+  # reader-mode: true
+  # repo-url: https://github.com/samanthacsik/samanthacsik.github.io
+  # repo-actions: [edit, issue]
+  site-url: https://javirudolph.github.io/
+  # favicon: images/mywebsiteicon.png
   navbar:
-    left:
+    title: false
+    # logo: images/mylogo.png
+    # logo-alt: "alt-text for logo"
+    right:
       - href: index.qmd
-        text: Home
+        text: home
       - about.qmd
+      # - href: talks_workshops.qmd
+      #   text: talks & workshops
+      # - href: courses.qmd
+      #   text: courses
+      # - href: projects.qmd
+      #   text: projects
+      # - posts.qmd
+      - text: get in touch!
+        menu:
+          - icon: linkedin
+            text: LinkedIn
+            href: https://www.linkedin.com/in/javirudolph/
+            target: _blank
+          - icon: envelope
+            text: email
+            href: mailto:f.javierarudolph@gmail.com
+      - icon: github
+        href: https://github.com/javirudolph/javirudolph.github.io
+        target: _blank
+  page-footer: 
+    background: light
+    left: © 2024 Francisca Javiera Rudolph Ph.D.
+    right: This website was built with [Quarto](https://quarto.org/){target=_blank}
 
 format:
   html:
+    page-layout: full
+    sidebar: false
     theme: cosmo
     css: styles.css
     toc: true
-
-
-
+    

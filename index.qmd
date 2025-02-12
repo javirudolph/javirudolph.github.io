@@ -7,10 +7,10 @@ about:
   image-width: 15em
 ---
 
-::: {#bio}
-Hi!
+::: {#intro}
+Hi there! My name is Francisca Javiera (Javi) Rudolph and this is my mini website. I will primarily use this one to share things I learn that apply to R programming or data science. Call it my own experiment for playing with quarto and fun programming projects. 
 
 ::: {#landing-icons}
-[{{< fa brands linkedin title="linkedin" >}}](https://www.linkedin.com/in/javirudolph/){target="_blank"} &nbsp; [{{< fa brands github title="github" >}}](https://github.com/javirudolph){target="_blank"} &nbsp; [{{< fa brands bluesky title="bluesky" >}}](https://bsky.app/profile/samcsik.bsky.social){target="_blank"} &nbsp; [{{< fa envelope title="envelope" >}}](mailto:scsik@ucsb.edu)
+[{{< fa brands linkedin title="linkedin" >}}](https://www.linkedin.com/in/javirudolph/){target="_blank"} &nbsp; [{{< fa brands github title="github" >}}](https://github.com/javirudolph){target="_blank"} &nbsp; [{{< fa brands bluesky title="bluesky" >}}](https://bsky.app/profile/javirudolph.bsky.social){target="_blank"} &nbsp; [{{< fa envelope title="envelope" >}}](mailto:f.javierarudolph@gmail.com)
 :::
 :::
