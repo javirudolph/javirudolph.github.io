@@ -8,7 +8,7 @@ about:
 ---
 
 ::: {#intro}
-Hi there! My name is Francisca Javiera (Javi) Rudolph and this is my mini website. I will primarily use this one to share things I learn that apply to R programming or data science. Call it my own experiment for playing with quarto and fun programming projects. 
+Hi there! My name is Francisca Javiera (Javi) Rudolph and this is my mini website. I primarily use this one to organize my GitHub work and share things I learn that apply to R programming or data science. For details on my background and research in quantitative ecology please visit my [other site at javirudolph.com/research](https://www.javirudolph.com/research)
 
 ::: {#landing-icons}
 [{{< fa brands linkedin title="linkedin" >}}](https://www.linkedin.com/in/javirudolph/){target="_blank"} &nbsp; [{{< fa brands github title="github" >}}](https://github.com/javirudolph){target="_blank"} &nbsp; [{{< fa brands bluesky title="bluesky" >}}](https://bsky.app/profile/javirudolph.bsky.social){target="_blank"} &nbsp; [{{< fa envelope title="envelope" >}}](mailto:f.javierarudolph@gmail.com)
