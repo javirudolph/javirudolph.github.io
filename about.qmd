@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "about"
 ---
 
 This is a landing page as I build this site. The original website is [here](https://www.javirudolph.com/about).
