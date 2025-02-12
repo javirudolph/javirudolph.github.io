@@ -16,7 +16,8 @@ website:
     right:
       - href: index.qmd
         text: home
-      - about.qmd
+      - href: about.qmd
+        text: about
       # - href: talks_workshops.qmd
       #   text: talks & workshops
       # - href: courses.qmd
@@ -34,7 +35,7 @@ website:
             text: email
             href: mailto:f.javierarudolph@gmail.com
       - icon: github
-        href: https://github.com/javirudolph/javirudolph.github.io
+        href: https://github.com/javirudolph/
         target: _blank
   page-footer: 
     background: light
