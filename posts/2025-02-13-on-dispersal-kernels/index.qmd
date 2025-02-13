@@ -2,7 +2,9 @@
 title: "Vector-mediated dispersal kernels"
 description: "Thinking of fungal pathogens moved around by humans in nature"
 author:
-  - name: Francisca Javiera Rudolph
+    name:
+      given: "Francisca Javiera"
+      family: "Rudolph"
     url: https://javirudolph.github.io/
 format:
   html:
