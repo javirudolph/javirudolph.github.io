@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://javirudolph.github.io/posts/2025-02-13-on-dispersal-kernels/index.html</loc>
+    <lastmod>2025-02-13T15:47:08.401Z</lastmod>
+  </url>
+  <url>
     <loc>https://javirudolph.github.io/index.html</loc>
-    <lastmod>2025-02-12T16:50:16.797Z</lastmod>
+    <lastmod>2025-02-13T15:47:08.679Z</lastmod>
   </url>
   <url>
     <loc>https://javirudolph.github.io/about.html</loc>
-    <lastmod>2025-02-12T16:50:17.016Z</lastmod>
+    <lastmod>2025-02-13T15:47:08.918Z</lastmod>
+  </url>
+  <url>
+    <loc>https://javirudolph.github.io/posts.html</loc>
+    <lastmod>2025-02-13T15:47:09.208Z</lastmod>
   </url>
 </urlset>

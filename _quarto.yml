@@ -16,15 +16,14 @@ website:
     right:
       - href: index.qmd
         text: home
-      - href: about.qmd
-        text: about
+      - about.qmd
+      - posts.qmd # add your listing page file to your navbar, just like you would any other new web page
       # - href: talks_workshops.qmd
       #   text: talks & workshops
       # - href: courses.qmd
       #   text: courses
       # - href: projects.qmd
       #   text: projects
-      # - posts.qmd
       - text: get in touch!
         menu:
           - icon: linkedin
