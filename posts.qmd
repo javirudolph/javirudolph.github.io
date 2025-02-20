@@ -7,4 +7,4 @@ listing:
   categories: true # allows you to sort posts by assigned categories 
 ---
 
-<!-- I built this page using this amazing guide! https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/ -->
+<!-- I built my blog using this amazing guide! https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/ -->

@@ -1,0 +1,92 @@
+---
+title: "Why I love Git and GitHub"
+description: "A short guide to getting started"
+author:
+    name:
+      given: "Francisca Javiera"
+      family: "Rudolph"
+    url: https://javirudolph.github.io/
+format:
+  html:
+    toc: true
+    html-math-method: katex
+    css: styles.css
+date: 02-13-2023
+categories: [Git, GitHub, version control] # self-defined categories
+citation: 
+  url: https://javirudolph.github.io/posts/2025-02-20-git-and-github/ 
+# image: preview-image.png
+draft: false     
+---
+
+I have taught multiple workshops to help researchers get started with version control and [GitHub](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account), but never had materials online. Part of this is that most of my workshops are hands-on, taught live, and with exercises that occur in the moment. I usually start with a few slides that give an intro to version control and why we want to use it, but after this, learners go straight into submitting issues and creating their first commits. I also think there are amazing blogs out there with good information already, so creating *yet another one* felt redundant. *Anyways*, as a personal challenge, I wrote *yet another blog on Git and Github*. I tried to keep it simple and straightforward, think of it as a brief overview to get your toes wet with version control.
+
+# What is Git?
+
+**Version control system** which essentially keeps track of a group of files and their history. You could think of it as the phylogenetic tree of your files.
+
+A **repository** is a collection of files within a group that gets tracked together.
+
+# Why Github?
+
+Github, GitLab, and BitBucket are all similar and they provide **hosting services**, which is basically a home for your project on the internet.
+
+It's like having a DropBox or GoogleDrive but for git-based projects, which for the most part is related to code.
+
+This allows other people to see your stuff, synchronize it, and contribute. Maybe think of it as the social media of code (but if you are not a fan of social media, then forget this analogy).
+
+# But whyyyyyy...?
+
+At least for academia, I have noticed people use GitHub as a code storage place - essentially, you write a paper, have some code associated with it, upload the code and use that link for the **Data availability** section in the manuscript. I *don't* love this, but if it means the code is available, I'll take it.
+
+For long-term code storage (you publish a paper and share the code/data for it) I think [Zenodo]() is a great option! There are other options too, like [Open Science Framework]() and both of these integrate with GitHub. So, you could start your project with Git/GitHub, track all the changes, and then when finished, release it as a version to Zenodo. This is kind of what I did for [my dissertation]().
+
+# Some Github features (the website)
+
+-   Well-designed user interface
+-   **Issues** originally a bug tracker but highly underutilized in our fields. I love these, as they provide a nice way to keep track of comments and conversation around specific files or problems with your code.
+-   R and Github integration is nicer due to the active R package development community (*personal opinion*). An intro on this can be found [here](https://peerj.com/preprints/3159v2/)
+
+# How to work with Git and Github?
+
+For the R user, best simple straightforward resource out there is [Happy git with R](https://happygitwithr.com/index.html)
+
+Github itself has a dedicated section for learning in the [docs](https://docs.github.com/en/get-started) and in particular, the [Hello World tutorial](https://docs.github.com/en/get-started/quickstart/hello-world) will get you creating a repo, managing a branch and merging a pull request.
+
+# 
+
+![Artwork by @allison_horst](ahorst_git_workflow.png)
+
+# Branches and pull requests
+
+When you first start using Git and Github, thinking of branches might feel a little intimidating, and honestly, you can get away with no using them at first. But branches become essential once you get a little adventurous and try things that *could* break your code. They are also incredible useful for working with others and keeping track of everyone's contributions to the project.
+
+1.  Create **Branch** to make a change.
+2.  Commit changes to the new branch.
+3.  Open **Pull request** to merge the changes to main branch.
+4.  Optional and recommended: delete branch
+
+Also known as a [feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+
+# 
+
+![source https://www.nobledesktop.com/learn/git/git-branches](git-branches-merge.png)
+
+# What is Quarto?
+
+This website and blog post are created with [Quarto](https://quarto.org/docs/websites/) and edited from RStudio! If you are familiar with [R markdown](https://rmarkdown.rstudio.com/), then think of [Quarto](https://quarto.org/) as the next generation, which allows you to work not only with `R`, but also `python` and `julia`. It is an open source publishing system (*It helps you create pretty documents using code and text*), and you can create anything from a website to a power point presentation, and even a pre-formatted scientific manuscript.
+
+![Artwork by @allison_horst](quarto_schematic.png)
+
+# What are we doing today?
+
+In previous workshops, I have created repositories specific to the group or organization that I'll be working with. Sometimes the repo I create stays with the organization or sometimes I just delete it. For the sake of this tutorial's posterity, I created [github-practice](https://github.com/javirudolph/github-practice) repo. Let's take a look at some tasks then:
+
+1.  If you don't already have one, create a free [GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
+2.  Locate the [github-practice](https://github.com/javirudolph/github-practice) repo and create an **issue** to propose a change, create a to do list, or add a description.
+3.  Create a new branch called `yourname-add` for you to *create* a change to any of the files.
+4.  Open a **pull request** to suggest your changes be included into the main branch.
+
+There you have it! Your first interaction with GitHub 🤩 and you have \[Registered for a GitHub account\](https://happygitwithr.com/github-acct)
+
+What do you think your next step should be? Perhaps you could get started by linking your local R/RStudio to your brand new GitHub account! 
