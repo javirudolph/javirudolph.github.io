@@ -12,7 +12,7 @@ format:
     html-math-method: katex
     css: styles.css
 date: 02-13-2023
-categories: [Git, GitHub, version control] # self-defined categories
+categories: [Git, GitHub, version control, reproducibility] # self-defined categories
 citation: 
   url: https://javirudolph.github.io/posts/2025-02-20-git-and-github/ 
 # image: preview-image.png
@@ -39,7 +39,9 @@ This allows other people to see your stuff, synchronize it, and contribute. Mayb
 
 At least for academia, I have noticed people use GitHub as a code storage place - essentially, you write a paper, have some code associated with it, upload the code and use that link for the **Data availability** section in the manuscript. I *don't* love this, but if it means the code is available, I'll take it.
 
-For long-term code storage (you publish a paper and share the code/data for it) I think [Zenodo]() is a great option! There are other options too, like [Open Science Framework]() and both of these integrate with GitHub. So, you could start your project with Git/GitHub, track all the changes, and then when finished, release it as a version to Zenodo. This is kind of what I did for [my dissertation]().
+For long-term code storage (you publish a paper and share the code/data for it) I think [Zenodo](https://help.zenodo.org/docs/profile/linking-accounts/) is a great option! There are other options too, like [Open Science Framework](https://osf.io/) and both of these integrate with GitHub. So, you could start your project with Git/GitHub, track all the changes, and then when finished, release it as a version to Zenodo. This is what I did for [my dissertation](https://zenodo.org/records/6347498).
+
+So, **why** do I love Git and GitHub? It is a relatively simple step to keeping us honest. I push for reproducibility in science, and open source work, and using version control is one aspect of this. **I also think this is an great resource and learning tool for young scientists!** Personally, I have learned much more from people's repositories of their analysis, than from papers that just *tell* you what they did, but don't *show* you how. Also, I think it is important to have tools that allow for **real-time** collaboration, where we can not only work together, but also openly discuss changes and keep track of *why* decisions were made. 
 
 # Some Github features (the website)
 
