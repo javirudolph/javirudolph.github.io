@@ -96,18 +96,18 @@ Also known as a [feature branch workflow](https://www.atlassian.com/git/tutorial
 ![source https://www.nobledesktop.com/learn/git/git-branches](git-branches-merge.png)
 
 ## Your turn!
+You can find additional resources and guides for this directly on the [github-practice](https://github.com/javirudolph/github-practice) repo.
 
-3.  Create a new branch called `yourname-branch` in the [github-practice](https://github.com/javirudolph/github-practice) repo.
+3.  Create a new branch called `yourname-branch`.
 <!-- ![Create a branch](branch_screenshot.png) -->
-![Create a branch2](branch_screenshot_2.png)
+<!-- ![Create a branch2](branch_screenshot_2.png) -->
 4.  Make a change in this branch and save the change as a commit (Hint: green button that says *Commit changes...*)
-![Create a change in the branch](branch_screenshot3.png)
+<!-- ![Create a change in the branch](branch_screenshot3.png) -->
 When you save or commit your changes, it is recommended that you add a little message to say what you did.
-![Commit message](branch_screenshot4.png) 
-
+<!-- ![Commit message](branch_screenshot4.png)  -->
 5.  **Open pull request** to suggest your changes be included into the main branch. This is basically sending me a message - "Hey Javi, I made some changes, can you ***pull*** them from my branch?". 
-![pull request](pull_request.png)
-![message request](pull_request2.png)
+<!-- ![pull request](pull_request.png) -->
+<!-- ![message request](pull_request2.png) -->
 
 One you create the pull request, I would get a notification saying someone has made changes. Then, I can approve those changes, and ***merge*** them to the main branch. If I want to, then I can delete that branch that proposed the change.
 
