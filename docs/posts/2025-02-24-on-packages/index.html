@@ -257,7 +257,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="introducing-devtools" class="level2">
 <h2 class="anchored" data-anchor-id="introducing-devtools">Introducing devtools</h2>
-<p>My first introduction to building R packages was with <a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.html">writing R extensions</a>, if that was also your experience, I’m sorry. Introducing <code>devtools: Tools to Make Developing R packages Easier</code> , that is literally their description and [here](https://devtools.r-lib.org/index.html) is the package website.</p>
+<p>My first introduction to building R packages was with <a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.html">writing R extensions</a>, if that was also your experience, I’m sorry. Introducing <code>devtools: Tools to Make Developing R packages Easier</code> , that is literally their description and <a href="https://devtools.r-lib.org/index.html">here</a> is the package website.</p>
 <p>Install the <code>devtools</code> package and load it:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"devtools"</span>)</span>
@@ -398,10 +398,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Incorporating version control and using GitHub</li>
 <li>Adding tests to make sure your package works the way it should</li>
 </ol>
-<p>Sometimes, I feel like adding GitHub is too much to begin with, specially when you already have all the code you want for a package, and you just really want to be able to use it locally. When you start thinking of sharing it with others, I highly recommend you invest the time on version control with Git and host your package on GitHub.</p>
+<p>Sometimes, I feel like adding GitHub is too much to begin with, specially when you already have all the code you want for a package, and you just really want to be able to use it locally. When you start thinking of sharing it with others, I highly recommend you invest the time on version control with Git and host your package on GitHub. If you are interested, I have a short <a href="https://javirudolph.github.io/posts/2025-02-20-git-and-github/">blog post</a> on Git and GitHub. Once you get your local computer set up, you really only need a couple of functions to share your package on GitHub:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Start version control</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_git</span>()</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Upload to GitHub</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_github</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <p>Testing is crucial and should be your immediate next step so it becomes a habit: create function &gt; test function.</p>
-<p>My recommendation is to go read [Ch1](https://r-pkgs.org/whole-game.html) and then [Ch5](https://r-pkgs.org/package-within.html) of the <a href="https://r-pkgs.org/">R Packages Book</a>. This will give you a good overview of the whole thing. Then, you can dive deep into any of the chapters as you encounter situations where you need to know more.</p>
-<p>When I was starting, I found Karl Broman’s R package primer: https://kbroman.org/pkg_primer/ very useful too. However, with all the new updates, I would suggest the book as a first resource, and then searching the web for more specific case examples or questions.</p>
+<p>My recommendation is to go read <a href="https://r-pkgs.org/whole-game.html">Ch1</a> and then <a href="https://r-pkgs.org/package-within.html">Ch5</a> of the <a href="https://r-pkgs.org/">R Packages Book</a>. This will give you a good overview of the whole thing. Then, you can dive deep into any of the chapters as you encounter situations where you need to know more.</p>
+<p>When I was starting, I found Karl Broman’s <a href="https://kbroman.org/pkg_primer/">R package primer</a> very useful too. However, with all the new updates, I would suggest the book as a first resource, and then searching the web for more specific case examples or questions.</p>
 <p>Have fun making packages!</p>
 
 

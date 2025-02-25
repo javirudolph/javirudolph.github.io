@@ -62,7 +62,7 @@ scale2 <- function(x) {
 
 ## Introducing devtools
 
-My first introduction to building R packages was with [writing R extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html), if that was also your experience, I'm sorry. Introducing `devtools: Tools to Make Developing R packages Easier` , that is literally their description and \[here\](https://devtools.r-lib.org/index.html) is the package website.
+My first introduction to building R packages was with [writing R extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html), if that was also your experience, I'm sorry. Introducing `devtools: Tools to Make Developing R packages Easier` , that is literally their description and [here](https://devtools.r-lib.org/index.html) is the package website.
 
 Install the `devtools` package and load it:
 
@@ -214,12 +214,20 @@ I barely scratched the surface here and I didn't cover two things that are quite
 1.  Incorporating version control and using GitHub
 2.  Adding tests to make sure your package works the way it should
 
-Sometimes, I feel like adding GitHub is too much to begin with, specially when you already have all the code you want for a package, and you just really want to be able to use it locally. When you start thinking of sharing it with others, I highly recommend you invest the time on version control with Git and host your package on GitHub.
+Sometimes, I feel like adding GitHub is too much to begin with, specially when you already have all the code you want for a package, and you just really want to be able to use it locally. When you start thinking of sharing it with others, I highly recommend you invest the time on version control with Git and host your package on GitHub. If you are interested, I have a short [blog post](https://javirudolph.github.io/posts/2025-02-20-git-and-github/) on Git and GitHub. Once you get your local computer set up, you really only need a couple of functions to share your package on GitHub: 
+
+```{r eval=F}
+# Start version control
+usethis::use_git()
+# Upload to GitHub
+usethis::use_github()
+```
+
 
 Testing is crucial and should be your immediate next step so it becomes a habit: create function \> test function.
 
-My recommendation is to go read \[Ch1\](https://r-pkgs.org/whole-game.html) and then \[Ch5\](https://r-pkgs.org/package-within.html) of the [R Packages Book](https://r-pkgs.org/). This will give you a good overview of the whole thing. Then, you can dive deep into any of the chapters as you encounter situations where you need to know more.
+My recommendation is to go read [Ch1](https://r-pkgs.org/whole-game.html) and then [Ch5](https://r-pkgs.org/package-within.html) of the [R Packages Book](https://r-pkgs.org/). This will give you a good overview of the whole thing. Then, you can dive deep into any of the chapters as you encounter situations where you need to know more.
 
-When I was starting, I found Karl Broman's R package primer: https://kbroman.org/pkg_primer/ very useful too. However, with all the new updates, I would suggest the book as a first resource, and then searching the web for more specific case examples or questions.
+When I was starting, I found Karl Broman's [R package primer](https://kbroman.org/pkg_primer/) very useful too. However, with all the new updates, I would suggest the book as a first resource, and then searching the web for more specific case examples or questions.
 
 Have fun making packages!

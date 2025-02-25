@@ -46,7 +46,7 @@
     "href": "posts/2025-02-24-on-packages/index.html#introducing-devtools",
     "title": "R packages for chaos control",
     "section": "Introducing devtools",
-    "text": "Introducing devtools\nMy first introduction to building R packages was with writing R extensions, if that was also your experience, I’m sorry. Introducing devtools: Tools to Make Developing R packages Easier , that is literally their description and [here](https://devtools.r-lib.org/index.html) is the package website.\nInstall the devtools package and load it:\n\ninstall.packages(\"devtools\")\nlibrary(devtools)"
+    "text": "Introducing devtools\nMy first introduction to building R packages was with writing R extensions, if that was also your experience, I’m sorry. Introducing devtools: Tools to Make Developing R packages Easier , that is literally their description and here is the package website.\nInstall the devtools package and load it:\n\ninstall.packages(\"devtools\")\nlibrary(devtools)"
   },
   {
     "objectID": "posts/2025-02-24-on-packages/index.html#create-your-package",
