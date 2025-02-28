@@ -19,7 +19,7 @@ citation:
 draft: false     
 ---
 
-I have taught multiple workshops to help researchers get started with version control and [GitHub](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account), because **I think it is an incredibly valuable tool**. Like most of my workshops, this is tailored to the group, very hands-on and with very few slides. I also think there are amazing blogs out there with good information already, so creating *yet another one* felt redundant. At the same time, I find a lot of the resources have many details and take a long time. So, I wrote *yet another blog on Git and Github*, but I tried to keep it simple and straightforward. I provide links for more exhaustive resources. But, think of *this one* as taking the tiny step to get started. 
+I have taught multiple workshops to help researchers get started with version control and [GitHub](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account), because **I think it is an incredibly valuable tool**. Like most of my workshops, this is tailored to the group, very hands-on and with very few slides. I also think there are amazing blogs out there with good information already, so creating *yet another one* felt redundant. At the same time, I find a lot of the resources have many details and take a long time. So, I wrote *yet another blog on Git and Github*, but I tried to keep it simple and straightforward. I provide links for more exhaustive resources. But, think of *this one* as taking the tiny step to get started.
 
 *Note:* This tutorial has been developed with beginners in mind, and has largely been taught to folks in the biological sciences with zero to no previous exposure to git and GitHub.
 
@@ -27,7 +27,7 @@ I have taught multiple workshops to help researchers get started with version co
 
 **Version control system** which essentially keeps track of a group of files and their history. The analogy I always encounter is [saving the final_final_version.docx](https://phdcomics.com/comics.php?f=1531), to which git can save you this trouble and keep track of one document and keep a *history* of the changes associated to it, with the ability to access and go back to previous versions if needed.
 
-A **repository** is a collection of files within a group that gets tracked together. For now, just think of it as a folder. 
+A **repository** is a collection of files within a group that gets tracked together. For now, just think of it as a folder.
 
 # Why Github?
 
@@ -35,16 +35,15 @@ Github, GitLab, and BitBucket are all similar and they provide **hosting service
 
 It's like having a DropBox or GoogleDrive but for git-based projects, which for the most part is related to code.
 
-By having code on GitHub, you can let other people see your stuff (you can choose whom), and also contribute to other people's code. Maybe think of it as the social media of code (*but if you are not a fan of social media, then forget this analogy*). 
+By having code on GitHub, you can let other people see your stuff (you can choose whom), and also contribute to other people's code. Maybe think of it as the social media of code (*but if you are not a fan of social media, then forget this analogy*).
 
 If you work across multiple machines (ex: personal laptop and work desktop), GitHub also lets you synchronize and make changes to your work - similar to DropBox.
 
 # 
 
-![Artwork by @allison_horst](ahorst_git_workflow.png)
+![Artwork by @allison_horst](ahorst_git_workflow.png){width="299"}
 
-You might have heard the words ***commit, push, and pull*** and wondered what these mean. Imagine yourself working on your laptop, you make some changes to the code and press *save*. This has saved those changes in your local, your laptop.Tomorrow, when you open your code, they will still have those changes. A ***commit*** is similar, it saves those changes to your local but it saves it to that git log, that history of the file. A ***push*** sends those changes to a shared online repo (your storage place in GitHub). So now, the changes you made are available in your laptop, and *also* in the remote GitHub repository. Let's say you go to work the next day, and open that same project and files on your local work desktop, so to *synchronize* or update it to the changes you made from your laptop, you ***pull*** from your remote (your GitHub repo). 
-
+You might have heard the words ***commit, push, and pull*** and wondered what these mean. Imagine yourself working on your laptop, you make some changes to the code and press *save*. This has saved those changes in your local, your laptop.Tomorrow, when you open your code, they will still have those changes. A ***commit*** is similar, it saves those changes to your local but it saves it to that git log, that history of the file. A ***push*** sends those changes to a shared online repo (your storage place in GitHub). So now, the changes you made are available in your laptop, and *also* in the remote GitHub repository. Let's say you go to work the next day, and open that same project and files on your local work desktop, so to *synchronize* or update it to the changes you made from your laptop, you ***pull*** from your remote (your GitHub repo).
 
 # But whyyyyyy...?
 
@@ -52,12 +51,11 @@ The big and simple answer here is **sharing**. We can add other things such as t
 
 ## For the sake of open science and reproducibility
 
-At least for academia, I have noticed people use GitHub as a code storage place - essentially, you write a paper, have some code associated with it, upload the code and use that link for the **Data availability** section in the manuscript. I *don't* love this, but if it means the code is available, I'll take it. Would it be nice to have the history associated with the work? Sure... 
+At least for academia, I have noticed people use GitHub as a code storage place - essentially, you write a paper, have some code associated with it, upload the code and use that link for the **Data availability** section in the manuscript. I *don't* love this, but if it means the code is available, I'll take it. Would it be nice to have the history associated with the work? Sure...
 
 For long-term code storage (you publish a paper and share the code/data for it) I think [Zenodo](https://help.zenodo.org/docs/profile/linking-accounts/) is a great option! There are other options too, like [Open Science Framework](https://osf.io/) and both of these integrate with GitHub. So, you could start your project with Git/GitHub, track all the changes, and then when finished, release it as a version to Zenodo. This is what I did for [my dissertation](https://zenodo.org/records/6347498), with the added benefit that it allows people to cite the code directly.
 
-So, **why** do I love Git and GitHub? It is a relatively simple step to keeping us honest. I push for reproducibility in science and open source work, so using version control is one aspect of this. **I also think this is an great resource and learning tool for young scientists!** Personally, I have learned much more from people's repositories of their analysis, than from papers that just *tell* you what they did, but don't *show* you how. Also, I think it is important to have tools that allow for **real-time** collaboration, where we can not only work together, but also openly discuss changes and keep track of *why* decisions were made. Git allows for the tracking of changes, but GitHub adds the web interface for issues and conversations surrounding the code. 
-
+So, **why** do I love Git and GitHub? It is a relatively simple step to keeping us honest. I push for reproducibility in science and open source work, so using version control is one aspect of this. **I also think this is an great resource and learning tool for young scientists!** Personally, I have learned much more from people's repositories of their analysis, than from papers that just *tell* you what they did, but don't *show* you how. Also, I think it is important to have tools that allow for **real-time** collaboration, where we can not only work together, but also openly discuss changes and keep track of *why* decisions were made. Git allows for the tracking of changes, but GitHub adds the web interface for issues and conversations surrounding the code.
 
 # So how do you learn?
 
@@ -82,7 +80,7 @@ In previous workshops, I have created repositories specific to the group or orga
 
 When you first start using Git and Github, thinking of branches might feel a little intimidating, and honestly, you can get away with no using them at first. But branches become essential once you get a little adventurous and want to try things that *could* break your code. They are also incredibly useful for working with others, incorporating changes in a *hopefully* more structured way and keeping track of everyone's contributions to the project.
 
-Essentially: 
+Essentially:
 
 1.  Create **Branch** to make a change.
 2.  Commit changes to the new branch.
@@ -93,33 +91,26 @@ Also known as a [feature branch workflow](https://www.atlassian.com/git/tutorial
 
 # 
 
-![source https://www.nobledesktop.com/learn/git/git-branches](git-branches-merge.png)
+![source https://www.nobledesktop.com/learn/git/git-branches](git-branches-merge.png){width="467"}
 
 ## Your turn!
+
 You can find additional resources and guides for this directly on the [github-practice](https://github.com/javirudolph/github-practice) repo.
 
-3.  Create a new branch called `yourname-branch`.
-<!-- ![Create a branch](branch_screenshot.png) -->
-<!-- ![Create a branch2](branch_screenshot_2.png) -->
-4.  Make a change in this branch and save the change as a commit (Hint: green button that says *Commit changes...*)
-<!-- ![Create a change in the branch](branch_screenshot3.png) -->
-When you save or commit your changes, it is recommended that you add a little message to say what you did.
-<!-- ![Commit message](branch_screenshot4.png)  -->
-5.  **Open pull request** to suggest your changes be included into the main branch. This is basically sending me a message - "Hey Javi, I made some changes, can you ***pull*** them from my branch?". 
-<!-- ![pull request](pull_request.png) -->
-<!-- ![message request](pull_request2.png) -->
+3.  Create a new branch called `yourname-branch`. <!-- ![Create a branch](branch_screenshot.png) --> <!-- ![Create a branch2](branch_screenshot_2.png) -->
+4.  Make a change in this branch and save the change as a commit (Hint: green button that says *Commit changes...*) <!-- ![Create a change in the branch](branch_screenshot3.png) --> When you save or commit your changes, it is recommended that you add a little message to say what you did. <!-- ![Commit message](branch_screenshot4.png)  -->
+5.  **Open pull request** to suggest your changes be included into the main branch. This is basically sending me a message - "Hey Javi, I made some changes, can you ***pull*** them from my branch?". <!-- ![pull request](pull_request.png) --> <!-- ![message request](pull_request2.png) -->
 
 One you create the pull request, I would get a notification saying someone has made changes. Then, I can approve those changes, and ***merge*** them to the main branch. If I want to, then I can delete that branch that proposed the change.
 
-![merge screenshot](merge_screenshot.png)
+![merge screenshot](merge_screenshot.png){width="398"}
+
 # You did it!
 
-There you have it! Your first interaction with GitHub 🤩 and since you have \[Registered for a GitHub account\](https://happygitwithr.com/github-acct), chapter 4 in the HappyGit with R book.
+There you have it! Your first interaction with GitHub 🤩 and since you have [Registered for a GitHub account](https://happygitwithr.com/github-acct), chapter 4 in the HappyGit with R book.
 
 What do you think your next step should be? Perhaps you could get started by linking your local R/RStudio to your brand new GitHub account! You could continue with chapter 5 in the [Happy Git with R book](https://happygitwithr.com/install-r-rstudio) or follow along [this tutorial in *R for the rest of us*](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r)
 
 *Something to keep in mind...* This website and blog post are created with [Quarto](https://quarto.org/docs/websites/) and edited from RStudio, and linked to my Github! If you are familiar with [R markdown](https://rmarkdown.rstudio.com/), then think of [Quarto](https://quarto.org/) as the next generation, which allows you to work not only with `R`, but also `python` and `julia`. It is an open source publishing system (*It helps you create pretty documents using code and text*), and you can create anything from a website to a power point presentation, and even a pre-formatted scientific manuscript.
 
-![Artwork by @allison_horst](quarto_schematic.png)
-
-
+![Artwork by @allison_horst](quarto_schematic.png){width="395"}
