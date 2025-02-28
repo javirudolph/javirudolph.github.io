@@ -49,6 +49,8 @@ You might have heard the words ***commit, push, and pull*** and wondered what th
 
 The big and simple answer here is **sharing**. We can add other things such as transparency, traceability, accessibility, reproducibility, and openness. Also, just flexibility to work on multiple machines and instead of using Dropbox or OneDrive, you keep track of the history of the code *plus* get to access and synchronize it from multiple machines.
 
+Another reason is **searching**. Have you ever worked on something and couldn't remember how to write the code for *a thing you've already done*, but can't quite write the right things? Sure, you could use AI to solve that and burn down a few trees in the process (love AI, but come on folks! it's not for *everything*). **OR** you could search you online repos for those keywords and find the thing you already did and need to do again. An example of this for me is the `theme` in ggplot, I forget some of the settings I like for some plots, or placement of the legend, etc. And if this idea of storing code is attractive to you, check out [GitHub gists](https://gist.github.com/).
+
 ## For the sake of open science and reproducibility
 
 At least for academia, I have noticed people use GitHub as a code storage place - essentially, you write a paper, have some code associated with it, upload the code and use that link for the **Data availability** section in the manuscript. I *don't* love this, but if it means the code is available, I'll take it. Would it be nice to have the history associated with the work? Sure...
