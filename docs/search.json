@@ -88,6 +88,76 @@
     "href": "posts.html",
     "title": "posts",
     "section": "",
-    "text": "R packages for chaos control\n\n\n\nR packages\n\n\nreproducibility\n\n\n\nSharing your code and keeping it organized\n\n\n\nFrancisca Javiera Rudolph\n\n\nFeb 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWhy I love Git and GitHub\n\n\n\nGit\n\n\nGitHub\n\n\nversion control\n\n\nreproducibility\n\n\n\nA short guide to getting started\n\n\n\nFrancisca Javiera Rudolph\n\n\nFeb 20, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nVector-mediated dispersal kernels\n\n\n\nDispersal\n\n\npathogens\n\n\n\nThinking of fungal pathogens moved around by humans in nature\n\n\n\nFrancisca Javiera Rudolph\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "R packages for chaos control\n\n\n\nR packages\n\n\nreproducibility\n\n\n\nSharing your code and keeping it organized\n\n\n\nFrancisca Javiera Rudolph\n\n\nFeb 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWhy I love Git and GitHub\n\n\n\nGit\n\n\nGitHub\n\n\nversion control\n\n\nreproducibility\n\n\n\nA short guide to getting started\n\n\n\nFrancisca Javiera Rudolph\n\n\nFeb 20, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDispersal\n\n\npathogens\n\n\n\n\n\n\n\nFrancisca Javiera Rudolph\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nVector-mediated dispersal kernels\n\n\n\nDispersal\n\n\npathogens\n\n\n\nThinking of fungal pathogens moved around by humans in nature\n\n\n\nFrancisca Javiera Rudolph\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2023-02-13-on-dispersal-kernels/index.html#introduction",
+    "href": "posts/2023-02-13-on-dispersal-kernels/index.html#introduction",
+    "title": "Crafting Publication-Ready Figures in R: A Comprehensive Guide",
+    "section": "",
+    "text": "As scientists and researchers, we know that a picture is worth a thousand words. In academic publishing, the quality of your figures can make or break your manuscript. Today, I’ll walk you through creating publication-quality figures using R’s ggplot2, with a focus on meeting the stringent requirements of scientific journals.\n\n\nExcellent figures: - Communicate complex data clearly - Enhance the readability of your research - Increase the likelihood of your work being noticed and cited"
+  },
+  {
+    "objectID": "posts/2023-02-13-on-dispersal-kernels/index.html#setting-up-your-r-environment",
+    "href": "posts/2023-02-13-on-dispersal-kernels/index.html#setting-up-your-r-environment",
+    "title": "Crafting Publication-Ready Figures in R: A Comprehensive Guide",
+    "section": "Setting Up Your R Environment",
+    "text": "Setting Up Your R Environment\nBefore we dive in, let’s ensure we have the right tools. We’ll need several R packages:\n\n# Install required packages (if not already installed)\nif (!require(\"pacman\")) install.packages(\"pacman\")\npacman::p_load(\n  ggplot2,   # Plotting\n  dplyr,     # Data manipulation\n  showtext,  # Custom fonts\n  svglite    # High-quality vector graphics\n)"
+  },
+  {
+    "objectID": "posts/2023-02-13-on-dispersal-kernels/index.html#understanding-journal-requirements",
+    "href": "posts/2023-02-13-on-dispersal-kernels/index.html#understanding-journal-requirements",
+    "title": "Crafting Publication-Ready Figures in R: A Comprehensive Guide",
+    "section": "Understanding Journal Requirements",
+    "text": "Understanding Journal Requirements\nDifferent journals have specific figure guidelines. For this tutorial, we’ll use requirements typical of ecology and environmental science journals:\n\nSingle-column width: 8.7 cm (3.425 inches)\nResolution: 300-600 dpi\nPreferred formats: TIFF, EPS, or high-quality SVG"
+  },
+  {
+    "objectID": "posts/2023-02-13-on-dispersal-kernels/index.html#creating-our-example-visualization",
+    "href": "posts/2023-02-13-on-dispersal-kernels/index.html#creating-our-example-visualization",
+    "title": "Crafting Publication-Ready Figures in R: A Comprehensive Guide",
+    "section": "Creating Our Example Visualization",
+    "text": "Creating Our Example Visualization\nWe’ll use the classic iris dataset to demonstrate advanced plotting techniques:\n\n# Set a professional color palette\njournal_palette &lt;- c(\"#1F77B4\", \"#FF7F0E\", \"#2CA02C\")\n\n# Create publication-ready plot\npublication_plot &lt;- ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +\n  # Scatter plot with professional aesthetics\n  geom_point(size = 2, alpha = 0.7) +\n  \n  # Add regression lines with confidence intervals\n  geom_smooth(method = \"lm\", se = TRUE, level = 0.95, \n              linetype = \"solid\", linewidth = 0.8) +\n  \n  # Minimal, clean theme\n  theme_minimal(base_size = 10) +\n  theme(\n    panel.grid.major = element_line(color = \"gray90\", linetype = \"solid\", linewidth = 0.5),\n    panel.grid.minor = element_blank(),\n    legend.position = \"right\",\n    legend.title = element_text(face = \"bold\"),\n    axis.title = element_text(face = \"bold\")\n  ) +\n  \n  # Customize colors and labels\n  scale_color_manual(values = journal_palette) +\n  labs(\n    title = \"Sepal Dimensions Across Iris Species\",\n    subtitle = \"Relationship between Sepal Length and Width\",\n    x = \"Sepal Length (cm)\",\n    y = \"Sepal Width (cm)\",\n    color = \"Species\"\n  )\n\n# Display the plot\nprint(publication_plot)\n\n`geom_smooth()` using formula = 'y ~ x'"
+  },
+  {
+    "objectID": "posts/2023-02-13-on-dispersal-kernels/index.html#exporting-for-publication",
+    "href": "posts/2023-02-13-on-dispersal-kernels/index.html#exporting-for-publication",
+    "title": "Crafting Publication-Ready Figures in R: A Comprehensive Guide",
+    "section": "Exporting for Publication",
+    "text": "Exporting for Publication\nExporting your figure correctly is crucial. Here’s how to create journal-ready files:\n\n# SVG for vector graphics\nggsave(\"iris_sepal_plot.svg\", \n        plot = publication_plot,\n        width = 8.7,   # Single column width in cm\n        height = 6.5,  # Adjusted for aspect ratio\n        dpi = 300)\n\n# TIFF for raster graphics\nggsave(\"iris_sepal_plot.tiff\", \n        plot = publication_plot,\n        width = 8.7,  \n        height = 6.5, \n        dpi = 600,    # High resolution\n        compression = \"lzw\")  # Lossless compression"
+  },
+  {
+    "objectID": "posts/2023-02-13-on-dispersal-kernels/index.html#pro-tips-for-scientific-visualization",
+    "href": "posts/2023-02-13-on-dispersal-kernels/index.html#pro-tips-for-scientific-visualization",
+    "title": "Crafting Publication-Ready Figures in R: A Comprehensive Guide",
+    "section": "Pro Tips for Scientific Visualization",
+    "text": "Pro Tips for Scientific Visualization\n\nColor Considerations\n\nUse color-blind friendly palettes\nEnsure sufficient contrast\nConsider grayscale compatibility\n\nTypography Matters\n\nMinimum 8-point font size\nUse sans-serif fonts for readability\nMaintain consistent font across figures\n\nSimplicity is Key\n\nRemove unnecessary grid lines\nFocus on data representation\nUse minimal, clean design elements"
+  },
+  {
+    "objectID": "posts/2023-02-13-on-dispersal-kernels/index.html#common-pitfalls-to-avoid",
+    "href": "posts/2023-02-13-on-dispersal-kernels/index.html#common-pitfalls-to-avoid",
+    "title": "Crafting Publication-Ready Figures in R: A Comprehensive Guide",
+    "section": "Common Pitfalls to Avoid",
+    "text": "Common Pitfalls to Avoid\n\nOvercrowded plots\nInconsistent color schemes\nLow-resolution exports\nIgnoring journal-specific guidelines"
+  },
+  {
+    "objectID": "posts/2023-02-13-on-dispersal-kernels/index.html#conclusion",
+    "href": "posts/2023-02-13-on-dispersal-kernels/index.html#conclusion",
+    "title": "Crafting Publication-Ready Figures in R: A Comprehensive Guide",
+    "section": "Conclusion",
+    "text": "Conclusion\nCreating publication-quality figures is an art and a science. By following these guidelines and leveraging R’s ggplot2, you can transform your data into compelling visual stories that captivate readers and reviewers alike."
+  },
+  {
+    "objectID": "posts/2023-02-13-on-dispersal-kernels/index.html#resources-and-further-reading",
+    "href": "posts/2023-02-13-on-dispersal-kernels/index.html#resources-and-further-reading",
+    "title": "Crafting Publication-Ready Figures in R: A Comprehensive Guide",
+    "section": "Resources and Further Reading",
+    "text": "Resources and Further Reading\n\nggplot2 Documentation\nR Graphics Cookbook\nJournal of Ecology Formatting Guidelines\n\n\nHappy Plotting!"
+  },
+  {
+    "objectID": "posts/2025-03-26-publication-ready-figures/index.html",
+    "href": "posts/2025-03-26-publication-ready-figures/index.html",
+    "title": "javirudolph",
+    "section": "",
+    "text": "CitationBibTeX citation:@online{rudolph2023,\n  author = {Rudolph, Francisca Javiera},\n  title = {},\n  date = {2023-02-13},\n  url = {https://javirudolph.github.io/posts/2025-03-26-publication-ready-figures/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRudolph, Francisca Javiera. 2023. February 13, 2023. https://javirudolph.github.io/posts/2025-03-26-publication-ready-figures/."
   }
 ]
