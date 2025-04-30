@@ -18,8 +18,8 @@ website:
         text: home
       - about.qmd
       - posts.qmd # add your listing page file to your navbar, just like you would any other new web page
-      # - href: talks_workshops.qmd
-      #   text: talks & workshops
+      - href: talks.qmd
+        text: talks
       # - href: courses.qmd
       #   text: courses
       # - href: projects.qmd
