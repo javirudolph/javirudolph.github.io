@@ -6,4 +6,7 @@ title: "talks"
 
 ## 2025
 
+Growing computational literacy as a community of practice.
+[slides](https://javirudolph.github.io/Talks/2025-06-25_computational_literacy_lib/#/title-slide)
+
 Demystifying complex technical concepts: R packages. [slides](https://javirudolph.github.io/Talks/2025-04-30_demistifying_complex_concepts_R_packages/index.html#/title-slide)
