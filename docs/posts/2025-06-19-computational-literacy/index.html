@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Francisca Javiera Rudolph">
+<meta name="dcterms.date" content="2025-06-19">
+<meta name="description" content="Doing the work in the open">
+
+<title>Preparing for a computational literacy role by practicing computational literacy – javirudolph</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">about</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html"> 
+<span class="menu-text">talks</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-get-in-touch" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">get in touch!</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-get-in-touch">    
+        <li>
+    <a class="dropdown-item" href="https://www.linkedin.com/in/javirudolph/" target="_blank"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="dropdown-text">LinkedIn</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="mailto:f.javierarudolph@gmail.com"><i class="bi bi-envelope" role="img">
+</i> 
+ <span class="dropdown-text">email</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/javirudolph/" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Preparing for a computational literacy role by practicing computational literacy</h1>
+                  <div>
+        <div class="description">
+          Doing the work in the open
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">computational literacy</div>
+                <div class="quarto-category">open science</div>
+                <div class="quarto-category">career development</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://javirudolph.github.io/">Francisca Javiera Rudolph</a> </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 19, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-problem-with-traditional-interview-prep" id="toc-the-problem-with-traditional-interview-prep" class="nav-link active" data-scroll-target="#the-problem-with-traditional-interview-prep">The problem with traditional interview prep</a>
+  <ul class="collapse">
+  <li><a href="#the-phone-interview" id="toc-the-phone-interview" class="nav-link" data-scroll-target="#the-phone-interview">The phone interview</a></li>
+  <li><a href="#prepping-for-the-on-site" id="toc-prepping-for-the-on-site" class="nav-link" data-scroll-target="#prepping-for-the-on-site">Prepping for the on site</a></li>
+  </ul></li>
+  <li><a href="#the-tools-im-using" id="toc-the-tools-im-using" class="nav-link" data-scroll-target="#the-tools-im-using">The tools I’m using</a>
+  <ul class="collapse">
+  <li><a href="#google" id="toc-google" class="nav-link" data-scroll-target="#google">Google</a></li>
+  <li><a href="#ai-chatgpt" id="toc-ai-chatgpt" class="nav-link" data-scroll-target="#ai-chatgpt">AI (ChatGPT)</a></li>
+  <li><a href="#slides-with-quarto" id="toc-slides-with-quarto" class="nav-link" data-scroll-target="#slides-with-quarto">Slides with Quarto</a></li>
+  </ul></li>
+  <li><a href="#why-build-in-the-open" id="toc-why-build-in-the-open" class="nav-link" data-scroll-target="#why-build-in-the-open">Why build in the open?</a></li>
+  <li><a href="#using-chatgpt-as-my-friend" id="toc-using-chatgpt-as-my-friend" class="nav-link" data-scroll-target="#using-chatgpt-as-my-friend">Using ChatGPT as my friend</a>
+  <ul class="collapse">
+  <li><a href="#prompts-that-worked-well" id="toc-prompts-that-worked-well" class="nav-link" data-scroll-target="#prompts-that-worked-well"><span class="emoji" data-emoji="speech_balloon">💬</span> Prompts That Worked Well</a></li>
+  </ul></li>
+  <li><a href="#web-scraping-with-r" id="toc-web-scraping-with-r" class="nav-link" data-scroll-target="#web-scraping-with-r">Web Scraping with R</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+<blockquote class="blockquote">
+<p><em>As I’ve come to believe through both research and experience, to build community, we have to do science publicly, in the open.</em></p>
+</blockquote>
+<p>This is not a new idea. I’ve heard it over and over with the R community, and in open science circles. I can probably track this down to <a href="https://posit.co/resources/videos/the-unreasonable-effectiveness-of-public-work/">David Robinson’s RStudio::conf(2019) talk</a>, or more recently, my friend <a href="https://talks.andrewheiss.com/2024-03-21_be-curious-not-judgmental/#/title-slide">Andrew Heiss</a>. There are significant gains in productivity and value when we work in the open. We have also seen this specifically for the movements of open source, open data, and <a href="https://www.cos.io/about">open science</a>. We know that open research practices democratize access, improve inclusion, and push for more accountability. This doesn’t apply just to science, and I realized I was in a perfect position to actually <strong>live this principle out loud</strong> as I am currently preparing for a faculty interview for a tenure-track Computational Literacy Librarian position, and I’ve decided to document how I plan and build my presentation.</p>
+<p>In this post, I’ll share my process and my <span class="emoji" data-emoji="brain">🧠</span>, to prepare in a way that’s transparent, reproducible, and community-minded. My hope is that if you’re preparing for an academic interview, building a computational workshop, or just trying to demystify how data and tech get used in real life, you’ll find something useful here.</p>
+<hr>
+<section id="the-problem-with-traditional-interview-prep" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem-with-traditional-interview-prep">The problem with traditional interview prep</h2>
+<p>Most academic interview prep happens behind closed doors. If you are lucky, you have built a network to ask for feedback, practice presentations, and ask questions. But even then, roles vary widely and expectations too. I have personally benefitted greatly from <a href="https://docs.google.com/spreadsheets/d/1PnS-tHYXNVPaSfbXT5v9qZl0T7QHH4AtwoyIJSRQ5a0/edit?gid=995413445#gid=995413445">ecoevojobs general discussion</a>. So, I thought writing a blog post about preparing for this job interview was a valid thing to share. The <a href="https://hr.uflib.ufl.edu/wordpress/files/2025/02/PVA-ComputationalLiteracyLibrarian.pdf">job description</a> is very broad, and honestly was a little intimidating to me, which is why I didn’t even think of applying at first. I asked ChatGPT, <em>given the following job description, can you give me a three sentence summary for what this position entails?</em>, this was the response:</p>
+<blockquote class="blockquote">
+<p>“The Computational Literacy Librarian leads campus-wide efforts to enhance data and AI literacy through instruction, consultations, and program development. They support researchers in using data science tools, accessing datasets, and applying ethical and reproducible practices. The role involves collaboration across the university to build sustainable, forward-looking services that advance research and teaching.”</p>
+</blockquote>
+<p>I can do that! So I asked myself: <strong>What would it look like to prepare for this role by practicing exactly that?</strong> Let’s get started!</p>
+<p>I applied for this role a few months ago (<em>February?</em>) and had a phone interview (<em>end of March</em>). I followed up after about a month (<em>May 1st</em>) and was very happy to get a response! However, the response was that they were moving forward with other candidates. Not the outcome I was hoping for, but grateful for not getting ghosted, I moved on. Fast forward to June and I received an email where I was invited to the onsite interview, scheduled for the end of the month (<em>June 25</em>). I share this timeline because applying for jobs takes time, and so much patience and uncertainty. Timelines are different across job types and institutions, so maybe having this one as a data point is helpful to someone.</p>
+<section id="the-phone-interview" class="level3">
+<h3 class="anchored" data-anchor-id="the-phone-interview">The phone interview</h3>
+<p>I was surprised, but in a good way, by how standardized their phone interview was. This was a zoom interview with a panel of folks (the search committee), and cameras were off. In fact, I was supposed to call from my phone to this zoom scheduled meeting, to keep things consistent among all candidates. I was sent a list of 10 questions ahead of time (this was new for me). Funny enough, I had recently applied and interviewed for a lecturer position, and the interview was very different. I guess I had some expectation that these interviews would be similar, given they were at the same university, but I couldn’t have been more off.</p>
+<p>In my ingenuity, I read those questions and took them as sort of a <em>guide</em> for the phone conversation. Key element here, I thought it would be a conversation, more like my previous interview, where we had cameras on and chatted. I did not realize that in the current interview, I would just get asked the questions and I was supposed to just answer them (pretty straight forward). Looking back, I should have had written down my answers, instead of jotting down bullet points of my ideas and thinking I would go with the flow. Anyways, I am just sharing, since all of this was new to me. Uncertain if I can share those questions in this blog, so maybe I’ll have to come back to this section.</p>
+</section>
+<section id="prepping-for-the-on-site" class="level3">
+<h3 class="anchored" data-anchor-id="prepping-for-the-on-site">Prepping for the on site</h3>
+<p>I have heard folks say that on site interviews begin the minute you get off the plane and meet with someone, until you get back on that plane. My interview is a full day, begins at 8 am, and ends with dinner. I am a local candidate, so no airport pick ups or hotel. My overall schedule looks a little like this:</p>
+<ul>
+<li>Meet search committee</li>
+<li>Meet department</li>
+<li>Give 20 minute talk, Q&amp;A</li>
+<li>Tour</li>
+<li>Lunch</li>
+<li>Meet faculty supervisor</li>
+<li>Meet deans</li>
+<li>Meet tenure promotion folks</li>
+<li>Meet with HR</li>
+<li>Break</li>
+<li>Dinner</li>
+</ul>
+<p>Over the last couple of weeks I have looked up the people I will be meeting and tried to learn about them. I have heard that you should have <em>good</em> questions prepared. But was is a good question anyways? I have tried to approach this with curiosity and true interest. I like to get to know people, and understand what drives their curiosity. A lot of my questions revolve around: what do you enjoy the most? What has been challenging and how have you approached it? What does a regular day look like for you? Is there a change in seasons with your work, for example how does summer look versus fall or spring? But I am also hoping to have meaningful and honest conversations that just flow. Who knows! Maybe I am approaching this all wrong, and you will find out with my follow up post.</p>
+<hr>
+</section>
+</section>
+<section id="the-tools-im-using" class="level2">
+<h2 class="anchored" data-anchor-id="the-tools-im-using">The tools I’m using</h2>
+<section id="google" class="level3">
+<h3 class="anchored" data-anchor-id="google">Google</h3>
+<p>Trusty web searches to help me understand concepts, and find people. The first one: <em>what is computational literacy</em>? Because in my mind, and the job I think I applied to, this means helping people learn and understand how to use computational (programming, tech, AI) tools to do their research. For me, this also means empowering folks to share their knowledge and become mentors of computational literacy themselves. I would be providing resources, giving workshops, one-on-one consultations, and guides (what to do when and why?). I have absolutely been doing this for years, started with volunteering and informal trainings to peers, and lately in my role with <a href="https://posit.co/products/enterprise/academy/">Posit Academy</a>.</p>
+<hr>
+</section>
+<section id="ai-chatgpt" class="level3">
+<h3 class="anchored" data-anchor-id="ai-chatgpt">AI (ChatGPT)</h3>
+<p>Instead of only writing alone, I’m using ChatGPT as a collaborative drafting tool. I get in my head and second guess myself <strong>all the time</strong>. Sometimes, ChatGPT helps me get unstuck. I use it to: - Outline my ideas after dictating my scattered brain onto a word doc. - Clarify job expectations based on the position description - Add comments to my code and build summaries of what I have done - Validation</p>
+<blockquote class="blockquote">
+<p>I treat ChatGPT not as an authority, but as a <em>thinking buddy</em>, a way to get over writing blocks or the dreaded <em>how do I even begin?</em>.</p>
+</blockquote>
+<hr>
+</section>
+<section id="slides-with-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="slides-with-quarto">Slides with Quarto</h3>
+<p>Because I believe in <strong>public scholarship</strong>, I’m building my slides in Quarto, so that not only can my presentation (and this blog post) live on my website, but also so that the source code is available too. I’ll post:</p>
+<ul>
+<li>My full presentation <a href="https://javirudolph.github.io/Talks/2025-06-25_computational_literacy_lib/#/title-slide">link</a></li>
+<li>This blog post (hi! <span class="emoji" data-emoji="wave">👋</span>) <a href="https://github.com/javirudolph/javirudolph.github.io/tree/main/posts/2025-06-25-computational-literacy">source_code</a></li>
+<li>The code for my web scraping example</li>
+</ul>
+<p>That way, even if I don’t get the job, the materials live on, and maybe they help someone else prepare, teach, or apply.</p>
+<hr>
+</section>
+</section>
+<section id="why-build-in-the-open" class="level2">
+<h2 class="anchored" data-anchor-id="why-build-in-the-open">Why build in the open?</h2>
+<p>I don’t remember when I first came across the concepts of open science and open source. I started coding in R in 2013, but it wasn’t until 2017 that I learned about the reproducibility crisis in science (I think this was at an intro course in graduate school). Then with my work with RLadies and the R community, openness was a key theme, along with inclusivity and transparency.</p>
+<p>Doing this work in public creates:</p>
+<ul>
+<li><strong>Accountability</strong>: I hold myself to a higher standard when I know others might see my process.</li>
+<li><strong>Visibility</strong>: It’s one way to show the work that often stays invisible in academic spaces.</li>
+<li><strong>Replicability</strong>: If someone else wants to use this approach, they can fork it, copy it, remix it.</li>
+</ul>
+<p>Also, if I’m applying to lead a <strong>computational literacy program</strong>, I want to demonstrate from the beginning that I value <strong>open-source practice andreproducible science</strong>. One of the biggest challenges I have faced in the last few years is doing work that can’t be shared openly, so I saw this interview as an opportunity to break that.</p>
+<hr>
+</section>
+<section id="using-chatgpt-as-my-friend" class="level2">
+<h2 class="anchored" data-anchor-id="using-chatgpt-as-my-friend">Using ChatGPT as my friend</h2>
+<p>Throughout this process, I’ve used ChatGPT as a thinking buddy, not a replacement for original work. I came in with uncertainty about the job, the prep, even whether I belonged in this role. What I found was that the AI helped me structure ideas, summarize my brain dumps, and connect my relevant experience to the job description. Additionally, it helped me refine my questions and suggest new ones based on my interests and capabilities. From building outlines to role playing, it functioned like a super-powered brainstorming buddy. I used the free version of ChatGPT. Importantly, to get the AI to be helpful, I needed to tailor it and provide <strong>context</strong>, detailed enough prompts and establish clear guidelines for what I wanted as a result.</p>
+<section id="prompts-that-worked-well" class="level3">
+<h3 class="anchored" data-anchor-id="prompts-that-worked-well"><span class="emoji" data-emoji="speech_balloon">💬</span> Prompts That Worked Well</h3>
+<p>Here are a few of the prompts that worked well and led to especially productive interactions. One of the things I like about ChatGPT is the ability to turn my scattered, brain dumpy thoughts into structured and organized outlines. I use this tool often, as a person with a neurospicy brain, I often require help to break down tasks and organize. I used to do this by journaling and rewriting, revisiting over and over again, and I still do. But I also take advantage of the time savings that an AI can give me. Knowing that I don’t have to write <em>nicely</em>, helps me put words down, a strategy from research writing, except I don’t have to go back and edit my writing in this case, I outsource that to ChatGPT.</p>
+<section id="i-shared-the-job-description-and-my-cv.-i-also-wrote-an-ugly-summary-of-my-experience-and-things-about-myself-that-i-thought-could-be-relevant-for-this-job.-then-i-asked" class="level5">
+<h5 class="anchored" data-anchor-id="i-shared-the-job-description-and-my-cv.-i-also-wrote-an-ugly-summary-of-my-experience-and-things-about-myself-that-i-thought-could-be-relevant-for-this-job.-then-i-asked">1. I shared the job description and my CV. I also wrote an <em>ugly</em> summary of my experience and things about myself that I thought could be relevant for this job. Then I asked:</h5>
+<blockquote class="blockquote">
+<p>Based on the job description I just shared, my CV, and experience. Help me summarize and reframe my experience to understand if I could be a good candidate for this position. Highlight specific things that are directly applicable, those that provide good foundations and a starting point, and those things that I might not be well suited for.</p>
+</blockquote>
+<p>The response gave me some validation as a good candidate, with a list of my strengths for this job, and potential gaps that I could prepare for. This was a long conversation, that lead to questions to ask, and role playing for interview prep.</p>
+</section>
+<section id="i-wanted-some-help-framing-my-talk-without-asking-it-for-ideas-about-my-talk.-since-the-ideas-were-mine-and-i-just-needed-some-organization-help.-you-will-notice-my-prompts-are-not-one-sentence-they-are-long-and-a-little-redundant-sometimes." class="level5">
+<h5 class="anchored" data-anchor-id="i-wanted-some-help-framing-my-talk-without-asking-it-for-ideas-about-my-talk.-since-the-ideas-were-mine-and-i-just-needed-some-organization-help.-you-will-notice-my-prompts-are-not-one-sentence-they-are-long-and-a-little-redundant-sometimes.">2. I wanted some help framing my talk, without asking it for ideas about my talk. Since, the ideas were mine and I just needed some organization help. You will notice my prompts are not one sentence, they are long, and a little redundant sometimes.</h5>
+<blockquote class="blockquote">
+<p>I am building a presentation for the on site interview. It is only a 20 minute presentation on how to grow a computational literacy program to support research across campus. My first thought is that, the way we have programs grow (or scale) is by building a community. This is what I am familiar with from RLadies, the R community, and just open science in general. There are multiple lenses to look at this: we want to provide materials, guides, but also spaces and community. You can have all the resources in the world, but if there is not a culture that pushes for reproducibility, open access, and ethical use of computational tools, then we can’t grow. Borrowing from my work as a mentor at Posit, my goal is always to empower learners so that they also feel compelled to share what they learn and know. Building safe spaces for learning while providing resources is what I would think of. So, as a summary, I would start from a structured decision making approach given my experience. Identify the problem/objective, of scaling a program. Surveying the landscape and what is out there as far as resources. Generally, encouraging working publicly in the open, transparency, and providing social spaces to build literacy as a culture, not just a curriculum.</p>
+</blockquote>
+<p>From here, the AI provided me an outline with 9 slide titles and key points. Some relevant, some not as much. But it was helpful to see how my experience could be organized to a slide deck.</p>
+</section>
+<section id="i-wanted-to-do-this-openly-writing-a-blogpost-sharing-the-code-and-running-a-small-reproducible-example.-specifically-in-the-part-of-what-is-out-there-i-thought-maybe-i-could-do-some-web-scraping-and-see-what-we-get." class="level5">
+<h5 class="anchored" data-anchor-id="i-wanted-to-do-this-openly-writing-a-blogpost-sharing-the-code-and-running-a-small-reproducible-example.-specifically-in-the-part-of-what-is-out-there-i-thought-maybe-i-could-do-some-web-scraping-and-see-what-we-get.">3. I wanted to do this openly, writing a blogpost, sharing the code, and running a small reproducible example. Specifically, in the part of <em>what is out there</em> I thought, maybe I could do some web scraping and see what we get.</h5>
+<blockquote class="blockquote">
+<p>I am preparing for this onsite interview and trying to follow the guidelines and concepts that I support, such as reproducibility, open source, transparency. Even though my presentation is only 20 minutes, I thought it would be good to blog about my interview prep and share how I used you (ChatGPT) to organize and structure my thoughts and ideas. I also want to share the blog and presentation source code, since they are written in quarto, and host them on my website. Additionally, I think it could be fun to have a very small web scraping example to survey the UF library website to see what we have in terms of ai workshops and guides, or resources for computational literacy. I am sure there are many. I would like your help building a very small toy example of web scraping with R, making it respectful so probably use rvest() and polite() to check for key terms. I would also like to build a wordcloud.</p>
+</blockquote>
+<p>I have to admit, I <em>love</em> the upbeat, cheerful, and encouraging tone I get from ChatGPT. This is the first thing it replies to this prompt:</p>
+<blockquote class="blockquote">
+<p>That’s a fantastic idea, Javi — you’re modeling the exact principles you want to promote: reproducibility, transparency, public scholarship, and open tooling. A small, respectful web scraping project paired with a blog post and Quarto-powered presentation will be a standout portfolio piece for your interview.</p>
+</blockquote>
+<p>From there, it provides me with some code, which I didn’t edit:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rvest)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(polite)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidytext)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(wordcloud)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RColorBrewer)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a polite session</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="st">"https://uflib.ufl.edu/"</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>session <span class="ot">&lt;-</span> <span class="fu">bow</span>(url)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Scrape and parse the page respectfully</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>page <span class="ot">&lt;-</span> <span class="fu">scrape</span>(session)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract visible text (adjust CSS selectors if needed)</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>text_data <span class="ot">&lt;-</span> page <span class="sc">%&gt;%</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html_elements</span>(<span class="st">"body"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html_text2</span>()</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Turn into a tidy tibble</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>words_df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">text =</span> text_data) <span class="sc">%&gt;%</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_tokens</span>(word, text) <span class="sc">%&gt;%</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anti_join</span>(<span class="fu">get_stopwords</span>()) <span class="sc">%&gt;%</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(word, <span class="at">sort =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter for top 50 and create word cloud</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>top_words <span class="ot">&lt;-</span> words_df <span class="sc">%&gt;%</span> </span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(n <span class="sc">&gt;</span> <span class="dv">2</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_max</span>(n, <span class="at">n =</span> <span class="dv">50</span>)</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Set seed for reproducibility</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">wordcloud</span>(<span class="at">words =</span> top_words<span class="sc">$</span>word,</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>          <span class="at">freq =</span> top_words<span class="sc">$</span>n,</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>          <span class="at">min.freq =</span> <span class="dv">2</span>,</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>          <span class="at">scale =</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="fl">0.5</span>),</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>          <span class="at">colors =</span> <span class="fu">brewer.pal</span>(<span class="dv">8</span>, <span class="st">"Dark2"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/first-run-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>I was hoping to build a fun toy example that I could use to show what is out there from the libraries in regards of training and resources to promote computational literacy. I quickly realized this is a project that is valuable, but requires more time and effort. So, I pivoted and decided my web scraping example would just go at the end of my presentation, as I had plenty of other content. Below, I dive a little deeper into the world cloud I built.</p>
+</section>
+</section>
+</section>
+<section id="web-scraping-with-r" class="level2">
+<h2 class="anchored" data-anchor-id="web-scraping-with-r">Web Scraping with R</h2>
+<p>My very first introduction to web scraping was with the <a href="https://r4ds.hadley.nz/webscraping">R for data science book</a>, not that long ago, and I thought it was a good place to start. I really love that one of the first things taught is bringing awareness to the legalities and ethics of web scraping! Mainly because I had no idea about it, and it was not something that I had ever thought of. In general, you want to make sure the data is public, that you follow the website’s <code>robots.txt</code>, and that there is no personally identifiable information. In the first prompt, I asked ChatGPT to use the the <code>polite</code> R package to ensure respectful scraping that honors the site’s <code>robots.txt</code> rules and avoids overloading servers. This small project targets public, non-sensitive pages and limits requests to stay within fair use.</p>
+<p>The first iteration of code captured all the general website text, but it didn’t focus on computational literacy content. Then I realized, I was looking at the general Smather’s Library website, and I should probably focus on <a href="https://arcs.uflib.ufl.edu/">ARCS</a> or the services page. So, I went with that one.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a polite session</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="st">"https://arcs.uflib.ufl.edu/services/"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>session <span class="ot">&lt;-</span> <span class="fu">bow</span>(url)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Scrape and parse the page respectfully</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>page <span class="ot">&lt;-</span> <span class="fu">scrape</span>(session)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract visible text (adjust CSS selectors if needed)</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>text_data <span class="ot">&lt;-</span> page <span class="sc">%&gt;%</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html_elements</span>(<span class="st">"body"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html_text2</span>()</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Turn into a tidy tibble</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>words_df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">text =</span> text_data) <span class="sc">%&gt;%</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_tokens</span>(word, text) <span class="sc">%&gt;%</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anti_join</span>(<span class="fu">get_stopwords</span>()) <span class="sc">%&gt;%</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(word, <span class="at">sort =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter for top 50 and create word cloud</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>top_words <span class="ot">&lt;-</span> words_df <span class="sc">%&gt;%</span> </span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(n <span class="sc">&gt;</span> <span class="dv">2</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_max</span>(n, <span class="at">n =</span> <span class="dv">50</span>)</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Set seed for reproducibility</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">187</span>)</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="fu">wordcloud</span>(<span class="at">words =</span> top_words<span class="sc">$</span>word,</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>          <span class="at">freq =</span> top_words<span class="sc">$</span>n,</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>          <span class="at">min.freq =</span> <span class="dv">2</span>,</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>          <span class="at">scale =</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="fl">0.5</span>),</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>          <span class="at">colors =</span> viridis<span class="sc">::</span><span class="fu">viridis</span>(<span class="at">n =</span> <span class="dv">15</span>, <span class="at">option =</span> <span class="st">"H"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+<p>As someone applying for a role that involves AI literacy, I wanted to model thoughtful, transparent use of these tools, and invite conversation about how we use AI in academic and community spaces.</p>
+<p><span style="background-color:#e5e7eb; color:#374151; padding:4px 8px; border-radius:6px; font-size:0.8em;">🤖 AI-assisted · Human-authored</span></p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{rudolph2025,
+  author = {Rudolph, Francisca Javiera},
+  title = {Preparing for a Computational Literacy Role by Practicing
+    Computational Literacy},
+  date = {2025-06-19},
+  url = {https://javirudolph.github.io/posts/2025-06-19-computational-literacy/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-rudolph2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Rudolph, Francisca Javiera. 2025. <span>“Preparing for a Computational
+Literacy Role by Practicing Computational Literacy.”</span> June 19,
+2025. <a href="https://javirudolph.github.io/posts/2025-06-19-computational-literacy/">https://javirudolph.github.io/posts/2025-06-19-computational-literacy/</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/javirudolph\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2024 Francisca Javiera Rudolph Ph.D.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This website was built with <a href="https://quarto.org/" target="_blank">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
