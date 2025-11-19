@@ -6,6 +6,9 @@ title: "talks"
 
 ## 2025
 
+Responsible use of LLMS for your data analysis.
+[slides](https://javirudolph.github.io/Talks/2025-11-19_responsible_use_LLMs/#/title-slide)
+
 Growing computational literacy as a community of practice.
 [slides](https://javirudolph.github.io/Talks/2025-06-25_computational_literacy_lib/#/title-slide)
 
