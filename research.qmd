@@ -1,0 +1,59 @@
+---
+title: "research"
+---
+
+My research addresses how **individual heterogeneity and spatial structure generate rare but consequential disease events** that disproportionately shape transmission dynamics across scales. I develop theoretical frameworks that work with real-world data constraints—bridging mechanistic models with the sparse, coarse surveillance data typical of emerging disease systems.
+
+I use spatially-explicit simulations, hierarchical Bayesian inference, extreme value statistics, machine learning, and decision science. I collaborate locally, nationally, and internationally, and work closely with practitioners to translate research into actionable management tools.
+
+## Research Themes
+
+### 1. Hybrid Inference for Resource-Limited Surveillance
+**The challenge:** Mechanistic models need fine-scale data. Surveillance produces yearly totals or aggregated counts.  
+**My approach:** Hybrid frameworks integrating statistical inference, data augmentation, and mechanistic simulation.
+
+**Systems:**
+- Anthrax dynamics in Vietnam (semi-synthetic data augmentation; *One Health*, 2025)
+- White-nose syndrome management in Montana (structured decision-making under uncertainty; *in review*)
+- SARS-CoV-2 in white-tailed deer (spatially-explicit stochastic models; *Ecosphere*, 2024)
+
+**Future:** Generalizing frameworks to multi-host, multi-pathogen One Health systems. International collaborations through Global Fellows Award in Chile and Ecuador. NSF STAR proposal in development.
+
+---
+
+### 2. Movement Heterogeneity, Superspreading & Surveillance Optimization
+**The insight:** A few highly mobile individuals drive disproportionate transmission—superspreaders exist in the tail of movement distributions.
+
+**My approach:** Extreme value theory to characterize individual heterogeneity in movement. Integration with integrated step selection analysis and reinforcement learning for surveillance optimization.
+
+**Questions:**
+- When does heterogeneity amplify vs. dampen outbreak risk?
+- How do landscape features interact with movement heterogeneity?
+- Can movement-based early warning systems predict spillover?
+
+**Future:** Integrating with metacommunity theory—treating pathogens as ecological communities across host metacommunities. Collaborations with Universidad San Francisco de Quito (Ecuador) and Universidad Austral (Chile).
+
+---
+
+### 3. Landscape Geometry & Disease Transmission
+**The innovation:** Landscape geometry (fractal dimension, patch configuration, edge density) as an active driver of transmission—not passive backdrop.
+
+**Current work:** Collaboration with Dr. Nicolas Gauthier (Florida Museum) using vision-language models to extract geometric features from Amazonian satellite imagery and incorporate into SIR models. Bidirectional framework: simulate forward (landscape → disease) and backward (disease → landscape inference).
+
+**Systems:** Vector-borne diseases in fragmented forests, zoonotic spillover at urban-wildland interfaces, waterborne diseases in canal systems.
+
+**Future:** NSF HEGS and eMB proposals in development. Applications across tropical disease systems where satellite data are abundant but surveillance is sparse.
+
+---
+
+## Collaborations & Networks
+
+- **UF:** Emerging Pathogens Institute, Florida Museum of Natural History, One Health Center of Excellence, Biology, Geography
+- **International:** Chile (Universidad Austral), Ecuador (Universidad San Francisco de Quito)
+- **USGS:** Disease Decision Analysis Research Group
+
+---
+
+## Lab Vision
+
+I'm establishing a computational disease ecology lab where research and capacity building reinforce each other. Students will ask: *How do individual heterogeneity and spatial structure shape disease dynamics?* The lab will produce theoretical advances, open-source tools, and training infrastructure that extend impact beyond direct research outputs.

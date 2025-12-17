@@ -1,7 +1,0 @@
----
-title: "about"
----
-
-This is a landing page as I build this site. The original website is [here](https://www.javirudolph.com/about).
-
-I am a Latin American scientist, born in Chile and raised in Ecuador. As a child, I always imagined I would become a veterinarian, but as I was pursuing that career in college I discovered infectious disease ecology. My passion for numbers and the quantitative aspect of nature drew me towards a PhD in Zoology at the University of Florida working with Jose Miguel Ponciano and Bette Loiselle. During my dissertation I focused on my statistics training and worked to understand variation between individuals and how it affects our understanding of population and ecosystem level patterns. I am a fan of statistics of extremes, R is my happy language, and I truly enjoy teaching and empowering others to use quantitative tools in their work. I am also a mom of three kiddos and an awesome dog. You can find me on GitHub, and LinkedIn. A list of my publications is on GoogleScholar. 

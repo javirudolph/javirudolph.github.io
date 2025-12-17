@@ -8,5 +8,15 @@ about:
 ---
 
 ::: {#intro}
-Hi there! My name is Francisca Javiera (Javi) Rudolph and this is my mini website. I primarily use this one to organize my GitHub work and share things I learn that apply to R programming or data science. For details on my background and research in quantitative ecology please visit my [other site at javirudolph.com/research](https://www.javirudolph.com/research)
+I'm a computational disease ecologist studying how individual heterogeneity and spatial structure generate rare but consequential events from superspreading to pathogen emergence hotspots. Currently, I am a tenure-track Computational Literacy Librarian at UF, building international collaborations and computational capacity across Latin America.
+:::
+
+::: {#recent_news}
+**Recent News**.
+
+**Dec2025** - 📄 Anthrax vaccination model paper is out in *One Health*! [Article link](https://www.sciencedirect.com/science/article/pii/S2352771425003301). 
+
+**Nov2025** - 🎓 Received funding for two undergraduates to join my group in Spring 2026. 
+
+**Oct2025** - 🏆 2026 Global Fellow - scaling computational ecology training internationally [Link](https://communications.uflib.ufl.edu/2025/11/25/ufs-first-computational-literacy-librarian-selected-as-a-2026-global-fellow/). 
 :::
