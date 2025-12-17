@@ -12,11 +12,23 @@ I'm a computational disease ecologist studying how individual heterogeneity and 
 :::
 
 ::: {#recent_news}
-**Recent News**.
+## Recent News
 
-**Dec2025** - 📄 Anthrax vaccination model paper is out in *One Health*! [Article link](https://www.sciencedirect.com/science/article/pii/S2352771425003301). 
+**Dec2025** - 📄 Anthrax vaccination model paper is out in *One Health*! [Article link](https://www.sciencedirect.com/science/article/pii/S2352771425003301).
 
-**Nov2025** - 🎓 Received funding for two undergraduates to join my group in Spring 2026. 
+**Nov2025** - 🎓 Received funding for two undergraduates to join my group in Spring 2026.
 
-**Oct2025** - 🏆 2026 Global Fellow - scaling computational ecology training internationally [Link](https://communications.uflib.ufl.edu/2025/11/25/ufs-first-computational-literacy-librarian-selected-as-a-2026-global-fellow/). 
+**Oct2025** - 🏆 2026 Global Fellow - scaling computational ecology training internationally [Link](https://communications.uflib.ufl.edu/2025/11/25/ufs-first-computational-literacy-librarian-selected-as-a-2026-global-fellow/).
 :::
+
+## About
+
+I'm a computational disease ecologist and tenure-track faculty at UF. Born in Chile and raised in Ecuador, I discovered infectious disease ecology while pursuing veterinary medicine and never looked back. I fell in love with equations and our ability to model our complex world.
+
+I hold a PhD in Zoology from UF and completed postdoctoral training at USGS Patuxent Wildlife Research Center and UF's Emerging Pathogens Institute. My work integrates mechanistic models, spatial analysis, and decision science to understand disease transmission, with focus on creative solutions to the data limitations that are common in emerging disease systems globally.
+
+I'm building computational capacity networks across Latin America and co-teaching Advanced Ecology Methods to increase our graduates' computational understanding of ecology.
+
+I'm also a mom of three kiddos and one fantastic dog. First-generation college student, Latina, immigrant.
+
+Find my work on [Google Scholar](https://scholar.google.com/citations?user=XH6Fbn0AAAAJ&hl=en&oi=ao)
