@@ -70,7 +70,7 @@ I have heard folks say that on site interviews begin the minute you get off the 
 -  Break
 -  Dinner
 
-Over the last couple of weeks I have looked up the people I will be meeting and tried to learn about them. I have heard that you should have *good* questions prepared. But was is a good question anyways? I have tried to approach this with curiosity and true interest. I like to get to know people, and understand what drives their curiosity. A lot of my questions revolve around: what do you enjoy the most? What has been challenging and how have you approached it? What does a regular day look like for you? Is there a change in seasons with your work, for example how does summer look versus fall or spring? But I am also hoping to have meaningful and honest conversations that just flow. Who knows! Maybe I am approaching this all wrong, and you will find out with my follow up post.
+Over the last couple of weeks I have looked up the people I will be meeting and tried to learn about them. I have heard that you should have *good* questions prepared. But was is a good question anyways? I have tried to approach this with curiosity and true interest. I like to get to know people, and understand what drives their curiosity. A lot of my questions revolve around: what do you enjoy the most? What has been challenging and how have you approached it? What does a regular day look like for you? Is there a change in seasons with your work, for example how does summer look versus fall or spring? But I am also hoping to have meaningful and honest conversations that just flow. Who knows! Maybe I am approaching this all wrong, I guess we will figure it out. 
 
 ------------------------------------------------------------------------
 
@@ -84,11 +84,12 @@ Trusty web searches to help me understand concepts, and find people. The first o
 
 ### AI (ChatGPT)
 
-Instead of only writing alone, I’m using ChatGPT as a collaborative drafting tool. I get in my head and second guess myself **all the time**. Sometimes, ChatGPT helps me get unstuck. I use it to:
--  Outline my ideas after dictating my scattered brain onto a word doc.
--  Clarify job expectations based on the position description
--  Add comments to my code and build summaries of what I have done
--  Validation
+Instead of only writing alone, I’m using ChatGPT as a collaborative drafting tool. I get in my head and second guess myself **all the time**. Sometimes, ChatGPT helps me get unstuck. I use it to:  
+-  Outline my ideas after dictating my scattered brain onto a word doc.  
+-  Clarify job expectations based on the position description.  
+-  Add comments to my code and build summaries of what I have done.  
+-  Validation. 
+
 
 > I treat ChatGPT not as an authority, but as a *thinking buddy*, a way to get over writing blocks or the dreaded *how do I even begin?*. 
 
@@ -99,11 +100,10 @@ Instead of only writing alone, I’m using ChatGPT as a collaborative drafting t
 Because I believe in **public scholarship**, I’m building my slides in Quarto, so that not only can my presentation (and this blog post) live on my website, but also so that the source code is available too. I’ll post:
 
 -   My full presentation [link](https://javirudolph.github.io/Talks/2025-06-25_computational_literacy_lib/#/title-slide)
--   This blog post (hi! :wave:) [source_code](https://github.com/javirudolph/javirudolph.github.io/tree/main/posts/2025-06-25-computational-literacy)
+-   This blog post (hi! :wave:) [source_code](https://github.com/javirudolph/javirudolph.github.io/blob/main/posts/2025-06-19-computational-literacy/index.qmd)
 -   The code for my web scraping example
 
-That way, even if I don’t get the job, the materials live on, and maybe
-they help someone else prepare, teach, or apply.
+That way, even if I don’t get the job, the materials live on, and maybe they help someone else prepare, teach, or apply.
 
 ------------------------------------------------------------------------
 
@@ -150,9 +150,9 @@ I have to admit, I *love* the upbeat, cheerful, and encouraging tone I get from 
 
 > That’s a fantastic idea, Javi — you're modeling the exact principles you want to promote: reproducibility, transparency, public scholarship, and open tooling. A small, respectful web scraping project paired with a blog post and Quarto-powered presentation will be a standout portfolio piece for your interview.
 
-From there, it provides me with some code, which I didn't edit: 
+From there, it provided me with some code, which I explored: 
 
-```{r}
+```{r eval=FALSE}
 #| label: first-run
 #| message: false
 library(rvest)
@@ -187,22 +187,25 @@ top_words <- words_df %>%
 
 # Set seed for reproducibility
 set.seed(123)
+png("wordcloud1.png")
 wordcloud(words = top_words$word,
           freq = top_words$n,
           min.freq = 2,
           scale = c(3, 0.5),
           colors = brewer.pal(8, "Dark2"))
-
+dev.off()
 ```
+![](wordcloud1.png)
+
 I was hoping to build a fun toy example that I could use to show what is out there from the libraries in regards of training and resources to promote computational literacy. I quickly realized this is a project that is valuable, but requires more time and effort. So, I pivoted and decided my web scraping example would just go at the end of my presentation, as I had plenty of other content. Below, I dive a little deeper into the world cloud I built.
 
 ## Web Scraping with R
 
-My very first introduction to web scraping was with the [R for data science book](https://r4ds.hadley.nz/webscraping), not that long ago, and I thought it was a good place to start. I really love that one of the first things taught is bringing awareness to the legalities and ethics of web scraping! Mainly because I had no idea about it, and it was not something that I had ever thought of. In general, you want to make sure the data is public, that you follow the website's `robots.txt`, and that there is no personally identifiable information. In the first prompt, I asked ChatGPT to use the the `polite` R package to ensure respectful scraping that honors the site’s `robots.txt` rules and avoids overloading servers. This small project targets public, non-sensitive pages and limits requests to stay within fair use.
+My very first introduction to web scraping was with the [R for data science book](https://r4ds.hadley.nz/webscraping), not that long ago, and I thought it was a good place to start. I really love that one of the first things taught is bringing awareness to **the legalities and ethics of web scraping**! Mainly because I had no idea about it, and it was not something that I had ever thought of. In general, you want to make sure the data is public, that you follow the website's `robots.txt`, and that there is no personally identifiable information. In the first prompt, I asked ChatGPT to use the the `polite` R package to ensure respectful scraping that honors the site’s `robots.txt` rules and avoids overloading servers. This small project targets public, non-sensitive pages and limits requests to stay within fair use.
 
-The first iteration of code captured all the general website text, but it didn't focus on computational literacy content. Then I realized, I was looking at the general Smather's Library website, and I should probably focus on [ARCS](https://arcs.uflib.ufl.edu/) or the services page. So, I went with that one. 
+The first iteration of code captured all the general website text, but it didn't focus on computational literacy content. Then I realized, I was looking at the general Smathers Library website, and I should probably focus on [ARCS](https://arcs.uflib.ufl.edu/) or the services page. So, I went with that one. 
 
-```{r message=FALSE}
+```{r message=FALSE, eval=FALSE}
 # Create a polite session
 url <- "https://arcs.uflib.ufl.edu/services/"
 session <- bow(url)
@@ -228,19 +231,22 @@ top_words <- words_df %>%
 
 # Set seed for reproducibility
 set.seed(187)
+png("wordcloud2.png")
 wordcloud(words = top_words$word,
           freq = top_words$n,
           min.freq = 2,
           scale = c(3, 0.5),
           colors = viridis::viridis(n = 15, option = "H"))
+dev.off()
 ```
 
-
+![](wordcloud2.png)
 
 ------------------------------------------------------------------------
 
 
 As someone applying for a role that involves AI literacy, I wanted to model thoughtful, transparent use of these tools, and invite conversation about how we use AI in academic and community spaces.
+**Update** I got the job!
 
 [ 🤖 AI-assisted · Human-authored
 ]{style="background-color:#e5e7eb; color:#374151; padding:4px 8px; border-radius:6px; font-size:0.8em;"}
