@@ -23,9 +23,9 @@ annotated code on [GitHub](https://github.com/javirudolph).
 
 ## Research Themes
 
-### Individual Heterogeneity & Superspreading Events
+### Individual Heterogeneity & Extreme Dispersal Events
 
-\![Add image: simulation output or conceptual diagram\]
+![](images/dispersal_sims.png)
 
 A few highly mobile or highly connected individuals drive
 disproportionate outcomes—whether seed dispersal or pathogen
@@ -54,7 +54,7 @@ Universidad Austral (Chile)
 
 ### Hybrid Inference for Resource-Limited Surveillance
 
-\![Add image: Vietnam anthrax landscape or decision framework diagram\]
+![](images/hybrid_sims.png)
 
 Mechanistic epidemiological models need fine-scale data. Real-world
 surveillance produces yearly case totals, aggregated counts, or
@@ -82,12 +82,11 @@ capacity building.
 
 ### Landscape Geometry as Active Driver of Transmission
 
-\![Add image: Amazonian earthworks satellite imagery or geometric
-features\]
+![](images/gardens_geometry.png)
 
 Classical disease ecology treats landscape as passive backdrop. I'm
-developing frameworks positioning **landscape geometry**—fractal
-dimension, patch configuration, edge density—as an active transmission
+developing frameworks positioning **landscape geometry** (fractal
+dimension, patch configuration, edge density) as an active transmission
 driver.
 
 In collaboration with Dr. Nicolas Gauthier (Florida Museum), we use
@@ -109,7 +108,7 @@ canal systems. NSF HEGS and eMB proposals in development.
 
 ### Metacommunity Theory Meets Disease Ecology
 
-\![Add image: JSDM diagram or multi-species network\]
+![](images/disease_metaco.png)
 
 For several years I've explored parallels between metacommunity ecology
 and disease ecology: treating pathogens as ecological communities
@@ -178,15 +177,16 @@ developing an OER module on SIR models and disease ecology, another
 creating reproducible research templates in R and GitHub in
 collaboration with Environmental and Global Health Department at UF.
 
-
 ------------------------------------------------------------------------
 
 ## Open Science Commitment
 
 Most of my work is publicly available with annotated code on
-[GitHub](https://github.com/javirudolph). I've promoted reproducibility in ecology for years and
-develop materials emphasizing transparent, reproducible workflows.
-Exceptions occur when data are regulated by government agencies or I'm
-not primary owner, but transparency is my default.
+[GitHub](https://github.com/javirudolph). I've promoted reproducibility
+in ecology for years and develop materials emphasizing transparent,
+reproducible workflows. Exceptions occur when data are regulated by
+government agencies or I'm not primary owner, but transparency is my
+default.
 
-[Publications](https://scholar.google.com/citations?user=XH6Fbn0AAAAJ&hl=en&oi=ao) \| [GitHub](link)
+[Publications](https://scholar.google.com/citations?user=XH6Fbn0AAAAJ&hl=en&oi=ao)
+\| [GitHub](link)
