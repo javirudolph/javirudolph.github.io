@@ -11,14 +11,14 @@
     "href": "talks.html",
     "title": "talks",
     "section": "",
-    "text": "Responsible use of LLMS for your data analysis. slides\nGrowing computational literacy as a community of practice. slides\nDemystifying complex technical concepts: R packages. slides"
+    "text": "Invited speaker for the 2025-2026 Biological Science Colloquium Series at Florida State University - Computational Literacy in the Wild: From Seed Dispersal to Superspreaders slide deck\nInvited speaker for the Emerging Pathogens Institute Animal Behavior and Infectious Disease Symposium 2026 - When behavior drives extremes: from long-distance seed dispersal to superspreaders slide deck"
   },
   {
     "objectID": "talks.html#section",
     "href": "talks.html#section",
     "title": "talks",
     "section": "",
-    "text": "Responsible use of LLMS for your data analysis. slides\nGrowing computational literacy as a community of practice. slides\nDemystifying complex technical concepts: R packages. slides"
+    "text": "Invited speaker for the 2025-2026 Biological Science Colloquium Series at Florida State University - Computational Literacy in the Wild: From Seed Dispersal to Superspreaders slide deck\nInvited speaker for the Emerging Pathogens Institute Animal Behavior and Infectious Disease Symposium 2026 - When behavior drives extremes: from long-distance seed dispersal to superspreaders slide deck"
   },
   {
     "objectID": "posts/2023-02-13-on-dispersal-kernels/index.html",
@@ -208,5 +208,12 @@
     "title": "research",
     "section": "Open Science Commitment",
     "text": "Open Science Commitment\nMost of my work is publicly available with annotated code on GitHub. I’ve promoted reproducibility in ecology for years and develop materials emphasizing transparent, reproducible workflows. Exceptions occur when data are regulated by government agencies or I’m not primary owner, but transparency is my default.\nPublications | GitHub"
+  },
+  {
+    "objectID": "talks.html#section-1",
+    "href": "talks.html#section-1",
+    "title": "talks",
+    "section": "2025",
+    "text": "2025\nResponsible use of LLMS for your data analysis. slide deck\nGrowing computational literacy as a community of practice. slide deck\nDemystifying complex technical concepts: R packages. slide deck"
   }
 ]

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-800d58d8a656452b2cf839acf4fa445e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-91903e51b979062d4d184304d30a9be9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,6 +79,10 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -138,7 +143,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2025</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2026</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2025</a></li>
   </ul>
 </nav>
     </div>
@@ -166,10 +172,15 @@ ul.task-list li input[type="checkbox"] {
 
 <!-- I built my blog using this amazing guide! https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/ -->
 <section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2025</h2>
-<p>Responsible use of LLMS for your data analysis. <a href="https://javirudolph.github.io/Talks/2025-11-19_responsible_use_LLMs/#/title-slide">slides</a></p>
-<p>Growing computational literacy as a community of practice. <a href="https://javirudolph.github.io/Talks/2025-06-25_computational_literacy_lib/#/title-slide">slides</a></p>
-<p>Demystifying complex technical concepts: R packages. <a href="https://javirudolph.github.io/Talks/2025-04-30_demistifying_complex_concepts_R_packages/index.html#/title-slide">slides</a></p>
+<h2 class="anchored" data-anchor-id="section">2026</h2>
+<p>Invited speaker for the <a href="https://www.bio.fsu.edu/bionotes/colloquium.php">2025-2026 Biological Science Colloquium Series</a> at Florida State University - <em>Computational Literacy in the Wild: From Seed Dispersal to Superspreaders</em> <a href="https://javirudolph.github.io/Talks/2026-04-09_fsu_colloquium/index.html#/title-slide">slide deck</a></p>
+<p>Invited speaker for the Emerging Pathogens Institute <a href="https://epi.ufl.edu/events/animal-behavior-and-infectious-disease-symposium-2026/">Animal Behavior and Infectious Disease Symposium 2026</a> - <em>When behavior drives extremes: from long-distance seed dispersal to superspreaders</em> <a href="https://javirudolph.github.io/Talks/2026-03-31_seeds_to_superspreaders/index.html#/title-slide">slide deck</a></p>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2025</h2>
+<p>Responsible use of LLMS for your data analysis. <a href="https://javirudolph.github.io/Talks/2025-11-19_responsible_use_LLMs/#/title-slide">slide deck</a></p>
+<p>Growing computational literacy as a community of practice. <a href="https://javirudolph.github.io/Talks/2025-06-25_computational_literacy_lib/#/title-slide">slide deck</a></p>
+<p>Demystifying complex technical concepts: R packages. <a href="https://javirudolph.github.io/Talks/2025-04-30_demistifying_complex_concepts_R_packages/index.html#/title-slide">slide deck</a></p>
 
 
 </section>
@@ -226,13 +237,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

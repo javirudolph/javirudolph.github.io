@@ -4,12 +4,18 @@ title: "talks"
 
 <!-- I built my blog using this amazing guide! https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/ -->
 
+## 2026
+
+Invited speaker for the [2025-2026 Biological Science Colloquium Series](https://www.bio.fsu.edu/bionotes/colloquium.php) at Florida State University - *Computational Literacy in the Wild: From Seed Dispersal to Superspreaders* [slide deck](https://javirudolph.github.io/Talks/2026-04-09_fsu_colloquium/index.html#/title-slide)
+
+Invited speaker for the Emerging Pathogens Institute [Animal Behavior and Infectious Disease Symposium 2026](https://epi.ufl.edu/events/animal-behavior-and-infectious-disease-symposium-2026/) - *When behavior drives extremes: from long-distance seed dispersal to superspreaders* [slide deck](https://javirudolph.github.io/Talks/2026-03-31_seeds_to_superspreaders/index.html#/title-slide)
+
 ## 2025
 
 Responsible use of LLMS for your data analysis.
-[slides](https://javirudolph.github.io/Talks/2025-11-19_responsible_use_LLMs/#/title-slide)
+[slide deck](https://javirudolph.github.io/Talks/2025-11-19_responsible_use_LLMs/#/title-slide)
 
 Growing computational literacy as a community of practice.
-[slides](https://javirudolph.github.io/Talks/2025-06-25_computational_literacy_lib/#/title-slide)
+[slide deck](https://javirudolph.github.io/Talks/2025-06-25_computational_literacy_lib/#/title-slide)
 
-Demystifying complex technical concepts: R packages. [slides](https://javirudolph.github.io/Talks/2025-04-30_demistifying_complex_concepts_R_packages/index.html#/title-slide)
+Demystifying complex technical concepts: R packages. [slide deck](https://javirudolph.github.io/Talks/2025-04-30_demistifying_complex_concepts_R_packages/index.html#/title-slide)
