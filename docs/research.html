@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-800d58d8a656452b2cf839acf4fa445e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-91903e51b979062d4d184304d30a9be9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,6 +79,10 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -146,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#metacommunity-theory-meets-disease-ecology" id="toc-metacommunity-theory-meets-disease-ecology" class="nav-link" data-scroll-target="#metacommunity-theory-meets-disease-ecology">Metacommunity Theory Meets Disease Ecology</a></li>
   </ul></li>
   <li><a href="#methodological-journey" id="toc-methodological-journey" class="nav-link" data-scroll-target="#methodological-journey">Methodological Journey</a></li>
-  <li><a href="#computational-capacity-building" id="toc-computational-capacity-building" class="nav-link" data-scroll-target="#computational-capacity-building">Computational Capacity Building</a></li>
+  <li><a href="#computational-capacity-building-in-latin-america" id="toc-computational-capacity-building-in-latin-america" class="nav-link" data-scroll-target="#computational-capacity-building-in-latin-america">Computational Capacity Building in Latin America</a></li>
   <li><a href="#open-science-commitment" id="toc-open-science-commitment" class="nav-link" data-scroll-target="#open-science-commitment">Open Science Commitment</a></li>
   </ul>
 </nav>
@@ -181,56 +186,46 @@ ul.task-list li input[type="checkbox"] {
 <section id="individual-heterogeneity-extreme-dispersal-events" class="level3">
 <h3 class="anchored" data-anchor-id="individual-heterogeneity-extreme-dispersal-events">Individual Heterogeneity &amp; Extreme Dispersal Events</h3>
 <p><img src="images/dispersal_sims.png" class="img-fluid"></p>
-<p>A few highly mobile or highly connected individuals drive disproportionate outcomes—whether seed dispersal or pathogen transmission. My dissertation established methods for characterizing individual heterogeneity in animal movement using <strong>extreme value theory</strong>, quantifying not average behavior but tail dynamics that generate rare long-distance dispersal events.</p>
-<p>This framework translates directly to disease systems: superspreaders exist in the tail of movement or contact distributions. I’m formalizing this through integration of <strong>integrated step selection analysis</strong> with transmission modeling in deer populations, asking: When does heterogeneity amplify versus dampen outbreak risk? How do landscape features interact with movement heterogeneity? Can movement-based early warning systems predict spillover?</p>
-<p><strong>Future directions:</strong> Reinforcement learning for surveillance optimization—identifying which individuals, populations, and landscape positions maximize information about emergence risk when resources are limited.</p>
-<p><strong>Key collaborations:</strong> Universidad San Francisco de Quito (Ecuador), Universidad Austral (Chile)</p>
+<p>Rare individuals drive disproportionate ecological outcomes, whether through long-distance seed dispersal or superspreading events in disease transmission. My dissertation developed frameworks using <strong>extreme value theory (EVT)</strong> to characterize individual heterogeneity in animal movement, quantifying not average behavior but the tail dynamics that generate rare, high-impact events.</p>
+<p>This theoretical foundation transfers directly to multihost disease systems: superspreaders exist in the tail of contact or movement distributions, and their identification requires methods designed for extremes rather than central tendencies. I’m extending this work by integrating step selection analysis with mechanistic transmission models to ask: When does individual heterogeneity amplify versus dampen outbreak risk across host species? How do landscape features interact with movement heterogeneity in bridge host populations? Can we develop movement-based surveillance strategies that predict spillover before emergence?</p>
+<p>I’m presenting this work at UF’s Animal Behavior and Infectious Disease Symposium (March 2026), focusing on EVT applications to detecting cryptic superspreading dynamics in multihost systems, a methodological contribution that connects movement ecology, network epidemiology, and surveillance optimization.</p>
 <hr>
 </section>
 <section id="hybrid-inference-for-resource-limited-surveillance" class="level3">
 <h3 class="anchored" data-anchor-id="hybrid-inference-for-resource-limited-surveillance">Hybrid Inference for Resource-Limited Surveillance</h3>
 <p><img src="images/hybrid_sims.png" class="img-fluid"></p>
 <p>Mechanistic epidemiological models need fine-scale data. Real-world surveillance produces yearly case totals, aggregated counts, or opportunistic observations. I develop <strong>hybrid frameworks</strong> integrating statistical inference, data augmentation, and mechanistic simulations to bridge this gap.</p>
-<p><strong>Demonstrated systems:</strong> - <strong>Anthrax in Vietnam:</strong> Semi-synthetic data augmentation fitting mechanistic models to yearly totals (<a href="https://www.sciencedirect.com/science/article/pii/S2352771425003301"><em>One Health</em>, 2025</a>) - <strong>White-nose syndrome in Montana:</strong> Structured decision-making under deep uncertainty through stakeholder engagement (<em>in review</em>) - <strong>SARS-CoV-2 in deer:</strong> Spatially-explicit stochastic epidemic models (<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012263"><em>PLOS Computational Bio</em>, 2024</a>)</p>
-<p><strong>Future work:</strong> Generalizing to multi-host, multi-pathogen One Health systems. Through my <strong>Global Fellows Award</strong>, I’m formalizing international partnerships in Chile and Ecuador where researchers face exactly these data challenges. NSF STAR proposal in development to position UF as hemispheric hub for computational disease ecology capacity building.</p>
+<p><strong>Demonstrated systems:</strong> - <strong>Anthrax in Vietnam:</strong> Semi-synthetic data augmentation fitting mechanistic models to yearly totals (<a href="https://www.sciencedirect.com/science/article/pii/S2352771425003301"><em>One Health</em>, 2025</a>) - <strong>White-nose syndrome in Montana:</strong> Structured decision-making under deep uncertainty through stakeholder engagement (<em>in review</em>) - <strong>SARS-CoV-2 in deer:</strong> Spillover risk and transmission dynamics between wild and farmed deer (<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012263"><em>PLOS Computational Bio</em>, 2024</a>)</p>
+<p><strong>Current work:</strong> Expanding to multi-host, multi-pathogen systems at biological invasion frontiers. Through my Global Fellows Award, I’m establishing research collaborations in southern Chile examining invasive species as potential pathogen bridge hosts at the livestock-wildlife interface and formalizing this partnership during an extended research visit in May 2026. This work positions me to develop computational frameworks for detecting bridge host roles using sparse surveillance data, with future proposals planned to scale these approaches across hemispheric invasion contexts.</p>
 <hr>
 </section>
 <section id="landscape-geometry-as-active-driver-of-transmission" class="level3">
 <h3 class="anchored" data-anchor-id="landscape-geometry-as-active-driver-of-transmission">Landscape Geometry as Active Driver of Transmission</h3>
 <p><img src="images/gardens_geometry.png" class="img-fluid"></p>
-<p>Classical disease ecology treats landscape as passive backdrop. I’m developing frameworks positioning <strong>landscape geometry</strong> (fractal dimension, patch configuration, edge density) as an active transmission driver.</p>
-<p>In collaboration with Dr.&nbsp;Nicolas Gauthier (Florida Museum), we use <strong>vision-language models</strong> to extract geometric features from Amazonian satellite imagery and incorporate them into spatially-explicit SIR models. Critically, this is <strong>bidirectional</strong>: simulate forward (landscape → disease patterns) and work backward through inverse modeling (disease dynamics → geometric signatures).</p>
-<p>This positions landscape geometry as an inferential target rather than requiring exhaustive field surveys—essential for tropical systems where satellite imagery is abundant but disease surveillance remains sparse.</p>
-<p><strong>Future applications:</strong> Vector-borne diseases in fragmented forests, zoonotic spillover at urban-wildland interfaces, waterborne diseases in canal systems. NSF HEGS and eMB proposals in development.</p>
+<p>Classical disease ecology treats landscape as passive backdrop. I’m developing frameworks positioning <strong>landscape geometry</strong> (fractal dimension, patch configuration, edge density) as an active transmission driver in mechanistic epidemiological models.</p>
+<p>My approach integrates geometric landscape features directly into spatially-explicit transmission models, creating bidirectional inference: simulate forward (landscape geometry → disease patterns) and work backward through inverse modeling (observed disease dynamics → geometric signatures). This reframes landscape geometry as an inferential target rather than requiring exhaustive field surveys—essential for systems where remote sensing data is abundant but disease surveillance remains sparse.</p>
+<p>In collaboration with the Florida Museum of Natural History, I’m applying these frameworks to Amazonian systems using satellite-derived landscape metrics, with future applications to vector-borne diseases in fragmented forests, zoonotic spillover at urban-wildland interfaces, and waterborne diseases in canal systems.</p>
 <hr>
 </section>
 <section id="metacommunity-theory-meets-disease-ecology" class="level3">
 <h3 class="anchored" data-anchor-id="metacommunity-theory-meets-disease-ecology">Metacommunity Theory Meets Disease Ecology</h3>
 <p><img src="images/disease_metaco.png" class="img-fluid"></p>
 <p>For several years I’ve explored parallels between metacommunity ecology and disease ecology: treating pathogens as ecological communities subject to assembly rules across host metacommunities.</p>
-<p>I have extensive experience with <strong>joint species distribution models (JSDMs)</strong>, publishing on <a href="https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/oik.08618">metacommunity theory</a> and currently leading work exploring how variance in dispersal across species affects community assembly and whether JSDMs can detect these differences. I also co-teach the <em>Advanced Ecology: Theory and Computational Methods</em> course with Dr.&nbsp;Mathew Leibold.</p>
-<p>This framework enables surveillance optimization: by modeling pathogens probabilistically across host communities, we identify which species and populations maximize information about pathogen community structure when comprehensive monitoring is prohibitively expensive.</p>
-<p><strong>Application:</strong> Multi-host zoonotic systems where dozens of pathogen strains circulate but resources are limited.</p>
+<p>My work explores how species-specific dispersal variation affects community assembly and whether JSDMs can detect these processes, building on our <a href="https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/oik.08618">published work</a> for metacommunity theory. I co-teach UF’s <em>Advanced Ecology: Theory and Computational Methods</em> course with Dr.&nbsp;Mathew Leibold, where we teach JSDM approaches for complex ecological systems and explore extensions to their applications and links to macroecology.</p>
+<p><strong>Disease ecology application:</strong> This framework has the potential to enable surveillance optimization for multi-host zoonotic systems. By modeling pathogens probabilistically across host communities, we can identify which host species and populations maximize information about pathogen community structure when comprehensive monitoring is prohibitively expensive, critical for systems where dozens of pathogen strains circulate across wildlife, livestock, and human populations.</p>
 <hr>
 </section>
 </section>
 <section id="methodological-journey" class="level2">
 <h2 class="anchored" data-anchor-id="methodological-journey">Methodological Journey</h2>
-<p>My quantitative training spans probability theory to complex hierarchical models to machine learning. During my <strong>PhD</strong> (UF Biology/Zoology), I used simulation techniques, bootstrap corrections, and extreme value statistics—while also supporting colleagues on moss genetics and ant-butterfly mutualisms.</p>
-<p>My <strong>first postdoc</strong> (USGS Patuxent) brought Bayesian hierarchical models, occupancy modeling, and mark-recapture methods. My <strong>second postdoc</strong> (UF Emerging Pathogens Institute) integrated mechanistic models with machine learning and AI applications.</p>
-<p>Currently, as <strong>Computational Literacy Librarian</strong> at UF, I’m building capacity for quantitative approaches across disciplines—teaching Advanced Ecology Methods, developing reproducible research frameworks, and creating open educational resources. This role provides unique freedom to establish international collaborations that benefit entire research communities rather than individual projects.</p>
+<p>My research program emerged from a methodological journey spanning probability theory, hierarchical modeling, and mechanistic simulation. During my PhD (UF Biology/Zoology), I developed expertise in extreme value statistics and simulation techniques. My postdoctoral work at USGS Patuxent and UF’s Emerging Pathogens Institute expanded this to Bayesian hierarchical models, occupancy modeling, and mechanistic disease models integrated with machine learning.</p>
+<p>As <strong>Computational Literacy Librarian</strong> at UF’s Academic Research &amp; Consulting Services, I now study how computational methods themselves transfer across biological systems, what I call methodology science. This positioning allows me to establish international research collaborations that build computational capacity across entire research communities, not just individual projects.</p>
 <hr>
 </section>
-<section id="computational-capacity-building" class="level2">
-<h2 class="anchored" data-anchor-id="computational-capacity-building">Computational Capacity Building</h2>
-<p>Through my <strong>2026 Global Fellows Award</strong>, I’m establishing training networks across Latin America with the mission to:</p>
-<ul>
-<li><p>Build local computational infrastructure that persists beyond individual collaborations</p></li>
-<li><p>Develop workshops and educational materials tailored to resource-limited contexts</p></li>
-<li><p>Create equitable partnerships where UF serves as hemispheric hub</p></li>
-</ul>
-<p>I’m developing workshops for Ecuador (July 2026) and Chile (December 2026) on computational disease ecology, designed for variable computational access. Materials will be open-source and available to UF students as well.</p>
-<p>I’m also mentoring two undergraduate researchers in Spring 2026: one developing an OER module on SIR models and disease ecology, another creating reproducible research templates in R and GitHub in collaboration with Environmental and Global Health Department at UF.</p>
+<section id="computational-capacity-building-in-latin-america" class="level2">
+<h2 class="anchored" data-anchor-id="computational-capacity-building-in-latin-america">Computational Capacity Building in Latin America</h2>
+<p>My <strong>2026 Global Fellows Award</strong> supports establishing computational disease ecology training networks across Latin America, with workshops planned for Chile (May 2026) and Ecuador (July 2026). These workshops are designed for variable computational access and resource-limited contexts, with all materials developed as open educational resources available to UF students and international partners.</p>
+<p>I’m currently mentoring two undergraduate researchers developing these frameworks: one creating an OER module on SIR models and disease ecology, another building reproducible research templates in R and GitHub in collaboration with UF’s Environmental and Global Health Department. This work positions UF as a hemispheric hub for computational approaches to One Health challenges.</p>
 <hr>
 </section>
 <section id="open-science-commitment" class="level2">
@@ -293,13 +288,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

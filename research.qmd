@@ -27,28 +27,12 @@ annotated code on [GitHub](https://github.com/javirudolph).
 
 ![](images/dispersal_sims.png)
 
-A few highly mobile or highly connected individuals drive
-disproportionate outcomes—whether seed dispersal or pathogen
-transmission. My dissertation established methods for characterizing
-individual heterogeneity in animal movement using **extreme value
-theory**, quantifying not average behavior but tail dynamics that
-generate rare long-distance dispersal events.
+Rare individuals drive disproportionate ecological outcomes, whether through long-distance seed dispersal or superspreading events in disease transmission. My dissertation developed frameworks using **extreme value theory (EVT)** to characterize individual heterogeneity in animal movement, quantifying not average behavior but the tail dynamics that generate rare, high-impact events.  
 
-This framework translates directly to disease systems: superspreaders
-exist in the tail of movement or contact distributions. I'm formalizing
-this through integration of **integrated step selection analysis** with
-transmission modeling in deer populations, asking: When does
-heterogeneity amplify versus dampen outbreak risk? How do landscape
-features interact with movement heterogeneity? Can movement-based early
-warning systems predict spillover?
+This theoretical foundation transfers directly to multihost disease systems: superspreaders exist in the tail of contact or movement distributions, and their identification requires methods designed for extremes rather than central tendencies. I'm extending this work by integrating step selection analysis with mechanistic transmission models to ask: When does individual heterogeneity amplify versus dampen outbreak risk across host species? How do landscape features interact with movement heterogeneity in bridge host populations? Can we develop movement-based surveillance strategies that predict spillover before emergence?  
 
-**Future directions:** Reinforcement learning for surveillance
-optimization—identifying which individuals, populations, and landscape
-positions maximize information about emergence risk when resources are
-limited.
+I'm presenting this work at UF's Animal Behavior and Infectious Disease Symposium (March 2026), focusing on EVT applications to detecting cryptic superspreading dynamics in multihost systems, a methodological contribution that connects movement ecology, network epidemiology, and surveillance optimization.  
 
-**Key collaborations:** Universidad San Francisco de Quito (Ecuador),
-Universidad Austral (Chile)
 
 ------------------------------------------------------------------------
 
@@ -67,16 +51,11 @@ augmentation fitting mechanistic models to yearly totals ([*One Health*,
 2025](https://www.sciencedirect.com/science/article/pii/S2352771425003301)) -
 **White-nose syndrome in Montana:** Structured decision-making under
 deep uncertainty through stakeholder engagement (*in review*) -
-**SARS-CoV-2 in deer:** Spatially-explicit stochastic epidemic models
+**SARS-CoV-2 in deer:** Spillover risk and transmission dynamics between wild and farmed deer
 ([*PLOS Computational Bio*,
 2024](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012263))
 
-**Future work:** Generalizing to multi-host, multi-pathogen One Health
-systems. Through my **Global Fellows Award**, I'm formalizing
-international partnerships in Chile and Ecuador where researchers face
-exactly these data challenges. NSF STAR proposal in development to
-position UF as hemispheric hub for computational disease ecology
-capacity building.
+**Current work:** Expanding to multi-host, multi-pathogen systems at biological invasion frontiers. Through my Global Fellows Award, I'm establishing research collaborations in southern Chile examining invasive species as potential pathogen bridge hosts at the livestock-wildlife interface and formalizing this partnership during an extended research visit in May 2026. This work positions me to develop computational frameworks for detecting bridge host roles using sparse surveillance data, with future proposals planned to scale these approaches across hemispheric invasion contexts.
 
 ------------------------------------------------------------------------
 
@@ -87,22 +66,11 @@ capacity building.
 Classical disease ecology treats landscape as passive backdrop. I'm
 developing frameworks positioning **landscape geometry** (fractal
 dimension, patch configuration, edge density) as an active transmission
-driver.
+driver in mechanistic epidemiological models.
 
-In collaboration with Dr. Nicolas Gauthier (Florida Museum), we use
-**vision-language models** to extract geometric features from Amazonian
-satellite imagery and incorporate them into spatially-explicit SIR
-models. Critically, this is **bidirectional**: simulate forward
-(landscape → disease patterns) and work backward through inverse
-modeling (disease dynamics → geometric signatures).
+My approach integrates geometric landscape features directly into spatially-explicit transmission models, creating bidirectional inference: simulate forward (landscape geometry → disease patterns) and work backward through inverse modeling (observed disease dynamics → geometric signatures). This reframes landscape geometry as an inferential target rather than requiring exhaustive field surveys—essential for systems where remote sensing data is abundant but disease surveillance remains sparse.
 
-This positions landscape geometry as an inferential target rather than
-requiring exhaustive field surveys—essential for tropical systems where
-satellite imagery is abundant but disease surveillance remains sparse.
-
-**Future applications:** Vector-borne diseases in fragmented forests,
-zoonotic spillover at urban-wildland interfaces, waterborne diseases in
-canal systems. NSF HEGS and eMB proposals in development.
+In collaboration with the Florida Museum of Natural History, I'm applying these frameworks to Amazonian systems using satellite-derived landscape metrics, with future applications to vector-borne diseases in fragmented forests, zoonotic spillover at urban-wildland interfaces, and waterborne diseases in canal systems.
 
 ------------------------------------------------------------------------
 
@@ -114,68 +82,25 @@ For several years I've explored parallels between metacommunity ecology
 and disease ecology: treating pathogens as ecological communities
 subject to assembly rules across host metacommunities.
 
-I have extensive experience with **joint species distribution models
-(JSDMs)**, publishing on [metacommunity
-theory](https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/oik.08618)
-and currently leading work exploring how variance in dispersal across
-species affects community assembly and whether JSDMs can detect these
-differences. I also co-teach the *Advanced Ecology: Theory and
-Computational Methods* course with Dr. Mathew Leibold.
+My work explores how species-specific dispersal variation affects community assembly and whether JSDMs can detect these processes, building on our [published work](https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/oik.08618) for metacommunity theory. I co-teach UF's *Advanced Ecology: Theory and Computational Methods* course with Dr. Mathew Leibold, where we teach JSDM approaches for complex ecological systems and explore extensions to their applications and links to macroecology.
 
-This framework enables surveillance optimization: by modeling pathogens
-probabilistically across host communities, we identify which species and
-populations maximize information about pathogen community structure when
-comprehensive monitoring is prohibitively expensive.
-
-**Application:** Multi-host zoonotic systems where dozens of pathogen
-strains circulate but resources are limited.
+**Disease ecology application:** This framework has the potential to enable surveillance optimization for multi-host zoonotic systems. By modeling pathogens probabilistically across host communities, we can identify which host species and populations maximize information about pathogen community structure when comprehensive monitoring is prohibitively expensive, critical for systems where dozens of pathogen strains circulate across wildlife, livestock, and human populations.
 
 ------------------------------------------------------------------------
 
 ## Methodological Journey
 
-My quantitative training spans probability theory to complex
-hierarchical models to machine learning. During my **PhD** (UF
-Biology/Zoology), I used simulation techniques, bootstrap corrections,
-and extreme value statistics—while also supporting colleagues on moss
-genetics and ant-butterfly mutualisms.
+My research program emerged from a methodological journey spanning probability theory, hierarchical modeling, and mechanistic simulation. During my PhD (UF Biology/Zoology), I developed expertise in extreme value statistics and simulation techniques. My postdoctoral work at USGS Patuxent and UF's Emerging Pathogens Institute expanded this to Bayesian hierarchical models, occupancy modeling, and mechanistic disease models integrated with machine learning.  
 
-My **first postdoc** (USGS Patuxent) brought Bayesian hierarchical
-models, occupancy modeling, and mark-recapture methods. My **second
-postdoc** (UF Emerging Pathogens Institute) integrated mechanistic
-models with machine learning and AI applications.
-
-Currently, as **Computational Literacy Librarian** at UF, I'm building
-capacity for quantitative approaches across disciplines—teaching
-Advanced Ecology Methods, developing reproducible research frameworks,
-and creating open educational resources. This role provides unique
-freedom to establish international collaborations that benefit entire
-research communities rather than individual projects.
+As **Computational Literacy Librarian** at UF's Academic Research & Consulting Services, I now study how computational methods themselves transfer across biological systems, what I call methodology science. This positioning allows me to establish international research collaborations that build computational capacity across entire research communities, not just individual projects.
 
 ------------------------------------------------------------------------
 
-## Computational Capacity Building
+## Computational Capacity Building in Latin America
 
-Through my **2026 Global Fellows Award**, I'm establishing training
-networks across Latin America with the mission to:
+My **2026 Global Fellows Award** supports establishing computational disease ecology training networks across Latin America, with workshops planned for Chile (May 2026) and Ecuador (July 2026). These workshops are designed for variable computational access and resource-limited contexts, with all materials developed as open educational resources available to UF students and international partners.  
 
--   Build local computational infrastructure that persists beyond
-    individual collaborations
-
--   Develop workshops and educational materials tailored to
-    resource-limited contexts
-
--   Create equitable partnerships where UF serves as hemispheric hub
-
-I'm developing workshops for Ecuador (July 2026) and Chile (December
-2026) on computational disease ecology, designed for variable
-computational access. Materials will be open-source and available to UF
-students as well.
-
-I'm also mentoring two undergraduate researchers in Spring 2026: one
-developing an OER module on SIR models and disease ecology, another
-creating reproducible research templates in R and GitHub in
-collaboration with Environmental and Global Health Department at UF.
+I'm currently mentoring two undergraduate researchers developing these frameworks: one creating an OER module on SIR models and disease ecology, another building reproducible research templates in R and GitHub in collaboration with UF's Environmental and Global Health Department. This work positions UF as a hemispheric hub for computational approaches to One Health challenges.
 
 ------------------------------------------------------------------------
 
