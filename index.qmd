@@ -32,15 +32,20 @@ I'm also a mom of three kiddos and one fantastic dog. First-generation college s
 ::: {#recent_news}
 ## News
 
+## News
+
+**Nov 2026** - 💻 Presented *Your Science, Online* at the UF Water Institute Fall 2026 Student Showcase, and launched an [academic website template](https://github.com/ARCS-UFLibraries/academic-website-template) for students. [Slides](https://javirudolph.github.io/Talks/2026-11-17_water_institute/)
+
+**Nov 2026** - 🎤 Invited talk at UW-Madison: *Making the most of messy data: disease modeling for One Health decisions*.
+
 **Jan 2026** - 🌎 Joined UF's International Center's strategic delegation to strengthen Latin American Research Partnerships - Article links. [1](https://communications.uflib.ufl.edu/2026/03/25/ufs-computational-literacy-librarian-joins-strategic-delegation-to-strengthen-latin-american-research-partnerships/) [2](https://grad.ufl.edu/articles/2026/news-2023052401/global.html) [3](https://internationalcenter.ufl.edu/news/2026/02/uf-advances-strategic-international-partnerships/) [storymap](https://storymaps.arcgis.com/stories/77977ad833074f7a8ef33bb3e0a19b48/)
 
-**Dec2025** - 📄 Anthrax vaccination model paper is out in *One Health*! [Article link](https://www.sciencedirect.com/science/article/pii/S2352771425003301).
+**Dec 2025** - 📄 Anthrax vaccination model paper is out in *One Health*! [Article link](https://www.sciencedirect.com/science/article/pii/S2352771425003301).
 
-**Nov2025** - 🎓 Received funding for two undergraduates to join my group in Spring 2026.
+**Nov 2025** - 🎓 Received funding for two undergraduates to join my group in Spring 2026.
 
-**Oct2025** - 🏆 2026 Global Fellow - scaling computational ecology training internationally [Link](https://communications.uflib.ufl.edu/2025/11/25/ufs-first-computational-literacy-librarian-selected-as-a-2026-global-fellow/).  
+**Oct 2025** - 🏆 2026 Global Fellow - scaling computational ecology training internationally [Link](https://communications.uflib.ufl.edu/2025/11/25/ufs-first-computational-literacy-librarian-selected-as-a-2026-global-fellow/).
 
-**Aug2025** - 🤓 Started tenure-track job as UF's First Computational Literacy Librarian.  
-
+**Aug 2025** - 🤓 Started tenure-track job as UF's First Computational Literacy Librarian.
 :::
 

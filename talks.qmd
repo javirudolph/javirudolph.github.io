@@ -5,6 +5,9 @@ title: "talks"
 <!-- I built my blog using this amazing guide! https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/ -->
 
 ## 2026
+UF Water Institute Fall 2026 Student Showcase - *Your Science, Online: Why you need a website, and how to build one today* [slide deck](https://javirudolph.github.io/Talks/2026-11-17_water_institute_workshop/)
+
+Invited Seminar Speaker, Department of Population Health Sciences, University of Wisconsin-Madison - *Making the most of messy data: disease modeling for One Health decisions*
 
 Invited speaker for the [2025-2026 Biological Science Colloquium Series](https://www.bio.fsu.edu/bionotes/colloquium.php) at Florida State University - *Computational Literacy in the Wild: From Seed Dispersal to Superspreaders* [slide deck](https://javirudolph.github.io/Talks/2026-04-09_fsu_colloquium/index.html#/title-slide)
 

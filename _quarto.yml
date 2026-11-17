@@ -37,7 +37,7 @@ website:
         target: _blank
   page-footer: 
     background: light
-    left: © 2024 Francisca Javiera Rudolph Ph.D.
+    left: © 2026 Francisca Javiera Rudolph Ph.D.
     right: This website was built with [Quarto](https://quarto.org/){target=_blank}
 
 format:
