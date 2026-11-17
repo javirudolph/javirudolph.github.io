@@ -23,8 +23,6 @@ I'm a computational disease ecologist studying how individual heterogeneity and 
 
 I'm from Latin America, and I discovered infectious disease ecology during my undergraduate studies in microbiology, where I fell in love with our ability to describe complex ecological systems through equations. I hold a PhD in Zoology from UF (advisors: Jose Miguel Ponciano and Bette Loiselle) and completed postdoctoral training at USGS Patuxent Wildlife Research Center and UF's Emerging Pathogens Institute.
 
-Currently, I'm a tenure-track Computational Literacy Librarian at UF focusing on developing a program in data and AI literacy. As a 2026 Global Fellow, I am building international collaborations and computational capacity across Latin America, with a focus on the ecology of infectious diseases. My goal is to strengthen computational understanding among ecology graduate students and support fellow faculty in the process.
-
 I am a tenure-track Assistant University Librarian for Computational Literacy at UF's George A. Smathers Libraries. I lead my own research program in wildlife and computational disease ecology, and I help students and researchers build computational skills through workshops, consultations, and collaborations. I hold graduate faculty status in UF's School of Natural Resources and Environment (SNRE), so I can chair and serve on graduate committees. **Interested in working with me? [Get in touch](mailto:javiera.av@ufl.edu).** As a 2026 Global Fellow, I build collaborations and computational capacity across Latin America, and I'm a certified Carpentries Instructor and Instructor Trainer.
 
 Outside of work, I'm a mom of three kiddos and one fantastic dog. First-generation college student, Latina, immigrant.
